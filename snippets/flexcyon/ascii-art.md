@@ -9,7 +9,7 @@
 ```css
 /* @settings
 name: Flexcyon Snippets - ASCII Art
-id: flexcyon-snippets
+id: flexcyon-snippets-1
 settings:
   - title: Enable ASCII Art
     type: class-toggle
