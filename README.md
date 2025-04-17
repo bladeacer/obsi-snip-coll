@@ -11,6 +11,7 @@ There are quite a few snippet collections by the Obsidian community. Here are so
 ### From flexcyon
 - [ASCII Art in new tab](./snippets/flexcyon/ascii-art/ascii-art.md)
 - [Vim Mode Status](./snippets/flexcyon/vim-mode-status/vim-mode.md)
+- [Callouts](./snippets/flexcyon/callouts/callouts.md)
 
 ## Recommended snippets to install in general
 - efemkay / [Obsidian Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout#wide-views)
