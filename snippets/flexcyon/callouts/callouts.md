@@ -5,3 +5,8 @@
 # Callouts
 - [Tategaki (Vertical RTL)/Vertical LTR](./vertical-alignment/vertical.md)
 - [Remove callout icon/title](./rm/rm.md)
+- [Callout color](./callout-color/color.md)
+- [Text transform](./text-transform/transform.md)
+- [Vertical alignment](./vertical-alignment/vertical.md)
+- [Horizontal alignment](./horizontal-alignment/horizontal.md)
+- [Popup](./callout-popup.css)
