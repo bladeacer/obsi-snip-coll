@@ -6,7 +6,7 @@
 
 # Callout Colors
 ## CSS code
-[View file here](./callout-colors.css)
+[View file here](./ext-colors.css)
 
 ## SCSS code
-[View file here](./callout-colors.scss)
+[View file here](./ext-colors.scss)

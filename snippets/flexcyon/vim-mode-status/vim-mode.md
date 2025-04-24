@@ -1,6 +1,7 @@
 ---
 - author: bladeacer
 - source: https://github.com/bladeacer/flexcyon
+- includes_style_settings: true
 ---
 # Vim Mode Status
 
