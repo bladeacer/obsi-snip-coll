@@ -3,10 +3,11 @@
 - source: https://github.com/bladeacer/flexcyon
 - includes_style_settings: true
 ---
-# ASCII Art in New Tab
 
+# Popup
 ## With Style Settings support
-[View this file](./ascii-art-w-style-settings.css)
+[View this file](./popup-w-style-settings.css)
 
 ## Without Style Settings support
-[View this file](./ascii-art.css)
+
+[View this file](./popup.css)

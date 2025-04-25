@@ -15,10 +15,10 @@ There are quite a few snippet collections by the Obsidian community. Here are so
   - Callout color
   - Callout extended color
   - No Icon/Background
-  - Horizontal alignment
+  - Horizontal/vertical alignment
   - Vertical alignment
   - Text transform
-  - Popup callout
+  - and many others...
 
 ### Contributing to this repo
 You are welcome to contribute to this repository, though do try to follow the exsting format. 
