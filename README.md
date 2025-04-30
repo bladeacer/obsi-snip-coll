@@ -9,6 +9,7 @@ There are quite a few snippet collections by the Obsidian community. Here are so
 
 ## Snippets in this repository
 ### From flexcyon
+- [Accessibility](./snippets/flexcyon/accessibility/accessibility.md)
 - [ASCII Art in new tab](./snippets/flexcyon/ascii-art/ascii-art.md)
 - [Vim Mode Status](./snippets/flexcyon/vim-mode-status/vim-mode.md)
 - [Callouts](./snippets/flexcyon/callouts/callouts.md)
