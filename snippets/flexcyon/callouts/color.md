@@ -4,10 +4,10 @@ source: https://github.com/bladeacer/flexcyon
 license: MIT
 ---
 
-# Filters
+# Color
 
-Sets the default contrast, brightness and saturation throughout Obsidian.
+Specify the target colour for callout title, content or both.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 
-[View this file](./filters.css)
+[View this file](./color.css)

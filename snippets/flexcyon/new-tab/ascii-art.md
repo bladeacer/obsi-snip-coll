@@ -4,10 +4,10 @@ source: https://github.com/bladeacer/flexcyon
 license: MIT
 ---
 
-# Filters
+# Ascii Art
 
-Sets the default contrast, brightness and saturation throughout Obsidian.
+Sets customsiable ASCII art in new tabs.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 
-[View this file](./filters.css)
+[View this file](./ascii-art.css)

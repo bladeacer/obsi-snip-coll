@@ -1,0 +1,89 @@
+div.callout[data-callout*=uppercase-all] div.callout-title .callout-title-inner,
+div.callout[data-callout-metadata*=uppercase-all] div.callout-title .callout-title-inner,
+div.callout[data-callout*=uppercase-title] div.callout-title .callout-title-inner,
+div.callout[data-callout-metadata*=uppercase-title] div.callout-title .callout-title-inner {
+  text-transform: uppercase;
+}
+
+div.callout[data-callout*=uppercase-all] div.callout-content *,
+div.callout[data-callout-metadata*=uppercase-all] div.callout-content *,
+div.callout[data-callout*=uppercase-content] div.callout-content *,
+div.callout[data-callout-metadata*=uppercase-content] div.callout-content * {
+  text-transform: uppercase;
+}
+div.callout[data-callout*=uppercase-all] div.callout-content * *,
+div.callout[data-callout-metadata*=uppercase-all] div.callout-content * *,
+div.callout[data-callout*=uppercase-content] div.callout-content * *,
+div.callout[data-callout-metadata*=uppercase-content] div.callout-content * * {
+  text-transform: uppercase;
+}
+div.callout[data-callout*=uppercase-all] div.callout-content * code[class*=language-],
+div.callout[data-callout*=uppercase-all] div.callout-content * pre[class*=language-],
+div.callout[data-callout-metadata*=uppercase-all] div.callout-content * code[class*=language-],
+div.callout[data-callout-metadata*=uppercase-all] div.callout-content * pre[class*=language-],
+div.callout[data-callout*=uppercase-content] div.callout-content * code[class*=language-],
+div.callout[data-callout*=uppercase-content] div.callout-content * pre[class*=language-],
+div.callout[data-callout-metadata*=uppercase-content] div.callout-content * code[class*=language-],
+div.callout[data-callout-metadata*=uppercase-content] div.callout-content * pre[class*=language-] {
+  text-transform: uppercase;
+}
+
+div.callout[data-callout*=lowercase-all] div.callout-title .callout-title-inner,
+div.callout[data-callout-metadata*=lowercase-all] div.callout-title .callout-title-inner,
+div.callout[data-callout*=lowercase-title] div.callout-title .callout-title-inner,
+div.callout[data-callout-metadata*=lowercase-title] div.callout-title .callout-title-inner {
+  text-transform: lowercase;
+}
+
+div.callout[data-callout*=lowercase-all] div.callout-content *,
+div.callout[data-callout-metadata*=lowercase-all] div.callout-content *,
+div.callout[data-callout*=lowercase-content] div.callout-content *,
+div.callout[data-callout-metadata*=lowercase-content] div.callout-content * {
+  text-transform: lowercase;
+}
+div.callout[data-callout*=lowercase-all] div.callout-content * *,
+div.callout[data-callout-metadata*=lowercase-all] div.callout-content * *,
+div.callout[data-callout*=lowercase-content] div.callout-content * *,
+div.callout[data-callout-metadata*=lowercase-content] div.callout-content * * {
+  text-transform: lowercase;
+}
+div.callout[data-callout*=lowercase-all] div.callout-content * code[class*=language-],
+div.callout[data-callout*=lowercase-all] div.callout-content * pre[class*=language-],
+div.callout[data-callout-metadata*=lowercase-all] div.callout-content * code[class*=language-],
+div.callout[data-callout-metadata*=lowercase-all] div.callout-content * pre[class*=language-],
+div.callout[data-callout*=lowercase-content] div.callout-content * code[class*=language-],
+div.callout[data-callout*=lowercase-content] div.callout-content * pre[class*=language-],
+div.callout[data-callout-metadata*=lowercase-content] div.callout-content * code[class*=language-],
+div.callout[data-callout-metadata*=lowercase-content] div.callout-content * pre[class*=language-] {
+  text-transform: lowercase;
+}
+
+div.callout[data-callout*=caps-all] div.callout-title .callout-title-inner,
+div.callout[data-callout-metadata*=caps-all] div.callout-title .callout-title-inner,
+div.callout[data-callout*=caps-title] div.callout-title .callout-title-inner,
+div.callout[data-callout-metadata*=caps-title] div.callout-title .callout-title-inner {
+  text-transform: capitalize;
+}
+
+div.callout[data-callout*=caps-all] div.callout-content *,
+div.callout[data-callout-metadata*=caps-all] div.callout-content *,
+div.callout[data-callout*=caps-content] div.callout-content *,
+div.callout[data-callout-metadata*=caps-content] div.callout-content * {
+  text-transform: capitalize;
+}
+div.callout[data-callout*=caps-all] div.callout-content * *,
+div.callout[data-callout-metadata*=caps-all] div.callout-content * *,
+div.callout[data-callout*=caps-content] div.callout-content * *,
+div.callout[data-callout-metadata*=caps-content] div.callout-content * * {
+  text-transform: capitalize;
+}
+div.callout[data-callout*=caps-all] div.callout-content * code[class*=language-],
+div.callout[data-callout*=caps-all] div.callout-content * pre[class*=language-],
+div.callout[data-callout-metadata*=caps-all] div.callout-content * code[class*=language-],
+div.callout[data-callout-metadata*=caps-all] div.callout-content * pre[class*=language-],
+div.callout[data-callout*=caps-content] div.callout-content * code[class*=language-],
+div.callout[data-callout*=caps-content] div.callout-content * pre[class*=language-],
+div.callout[data-callout-metadata*=caps-content] div.callout-content * code[class*=language-],
+div.callout[data-callout-metadata*=caps-content] div.callout-content * pre[class*=language-] {
+  text-transform: capitalize;
+}

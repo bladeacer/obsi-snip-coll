@@ -4,10 +4,10 @@ source: https://github.com/bladeacer/flexcyon
 license: MIT
 ---
 
-# Filters
+# Bg Transparent
 
-Sets the default contrast, brightness and saturation throughout Obsidian.
+Makes the callout background transparent.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 
-[View this file](./filters.css)
+[View this file](./bg-transparent.css)

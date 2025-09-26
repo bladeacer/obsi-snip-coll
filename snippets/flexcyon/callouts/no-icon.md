@@ -4,10 +4,10 @@ source: https://github.com/bladeacer/flexcyon
 license: MIT
 ---
 
-# Filters
+# No Icon
 
-Sets the default contrast, brightness and saturation throughout Obsidian.
+Removes the callout icon.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 
-[View this file](./filters.css)
+[View this file](./no-icon.css)

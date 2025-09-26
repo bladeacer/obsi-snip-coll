@@ -4,10 +4,10 @@ source: https://github.com/bladeacer/flexcyon
 license: MIT
 ---
 
-# Filters
+# Text Transform
 
-Sets the default contrast, brightness and saturation throughout Obsidian.
+Set text transform options within callout title, content or both.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 
-[View this file](./filters.css)
+[View this file](./text-transform.css)

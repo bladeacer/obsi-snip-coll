@@ -1,0 +1,10 @@
+div.callout[data-callout-metadata*=empty] .callout-icon,
+div.callout[data-callout*=empty] .callout-icon,
+div.callout[data-callout*=tategaki] .callout-icon,
+div.callout[data-callout-metadata*=tategaki] .callout-icon,
+div.callout[data-callout*=vert-ltr] .callout-icon,
+div.callout[data-callout-metadata*=vert-ltr] .callout-icon,
+div.callout[data-callout*=no-icon] .callout-icon,
+div.callout[data-callout-metadata*=no-icon] .callout-icon {
+  display: none;
+}

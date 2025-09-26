@@ -24,6 +24,17 @@ especially those from my theme flexcyon.
   - and many others...
 
 ### Extracting your own snippets
+Enclose your snippet(s) of interest like this
+
+```css
+/* obsi-snip-coll start */
+body {
+    font-size: 1.2rem;
+}
+/* obsi-snip-coll end */
+
+```
+
 Make use of the [extraction script](extract-snippets.py).
 
 Ensure you have Python installed (check with `which python`, [install it on Windows](https://www.python.org/downloads/))

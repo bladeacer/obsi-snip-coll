@@ -4,10 +4,10 @@ source: https://github.com/bladeacer/flexcyon
 license: MIT
 ---
 
-# Filters
+# Vertical Ltr
 
-Sets the default contrast, brightness and saturation throughout Obsidian.
+Applies Vertical Left-To-Right (LTR) to your callout content.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 
-[View this file](./filters.css)
+[View this file](./vertical-ltr.css)
