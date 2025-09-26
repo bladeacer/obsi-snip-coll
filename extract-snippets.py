@@ -8,6 +8,8 @@ import shlex
 
 # The path to the JSON index file
 INDEX_FILE = Path("snippets/index.json")
+# The path to the metadata file
+METADATA_FILE = Path("snippets/metadata.json")
 
 def load_env(env_path=None):
     """
@@ -74,13 +76,22 @@ def parse_sources(env_vars):
         "REPO_URL": env_vars.get("REPO_URL"),
     }]
 
-
 def load_index():
     """Loads the JSON index file, returning an empty dict if not found or corrupted."""
     if not INDEX_FILE.exists():
         return {}
     try:
         with open(INDEX_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError):
+        return {}
+
+def load_metadata():
+    """Loads the JSON metadata file, returning an empty dict if not found or corrupted."""
+    if not METADATA_FILE.exists():
+        return {}
+    try:
+        with open(METADATA_FILE, 'r', encoding='utf-8') as f:
             return json.load(f)
     except (json.JSONDecodeError, FileNotFoundError):
         return {}
@@ -93,6 +104,25 @@ def save_index(index_data):
             json.dump(index_data, f, indent=2)
     except Exception as e:
         print(f"Error saving index file: {e}")
+
+def save_metadata_entry(source_name, snippet_name, sub_directory, description):
+    """Saves a new snippet entry to the metadata file."""
+    metadata = load_metadata()
+    if source_name not in metadata:
+        metadata[source_name] = {}
+    
+    metadata[source_name][snippet_name] = {
+        "sub_directory": sub_directory,
+        "description": description
+    }
+    
+    try:
+        METADATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with open(METADATA_FILE, 'w', encoding='utf-8') as f:
+            json.dump(metadata, f, indent=2)
+        print(f"Added new snippet metadata to '{METADATA_FILE}'.")
+    except Exception as e:
+        print(f"Error saving metadata file: {e}")
 
 def get_line_number(text, index):
     """Returns the 1-based line number for a given character index."""
@@ -159,7 +189,18 @@ def get_description_from_markdown(md_path):
         pass
     return ""
 
-def process_source(source_data, index):
+def minify_css(css_content):
+    """
+    Removes comments and all whitespace from a CSS string for a
+    more reliable content comparison.
+    """
+    # Remove CSS comments (both single-line and multiline)
+    minified_content = re.sub(r'/\*.*?\*/', '', css_content, flags=re.DOTALL)
+    # Remove all remaining whitespace characters
+    minified_content = re.sub(r'\s', '', minified_content)
+    return minified_content
+
+def process_source(source_data, index, metadata):
     """Processes a single source file, extracting and saving snippets."""
     source_path_val = source_data.get("SOURCE_PATH")
     source_path = Path(source_path_val) if source_path_val else None
@@ -175,9 +216,9 @@ def process_source(source_data, index):
 
     print(f"\n--- Processing Source: '{source_name}' ---")
 
-    # Regex to find CSS content between start and end comments
+    # Updated regex to capture a name from the start comment
     pattern = re.compile(
-        r"/\*\s*obsi-snip-coll\s+start.*?\*/(.*?)/\*\s*obsi-snip-coll\s+end\s*\*/",
+        r"/\*\s*obsi-snip-coll\s+start(?::\s*([^ ]+))?\s*\*/(.*?)/\*\s*obsi-snip-coll\s+end\s*\*/",
         re.DOTALL | re.IGNORECASE
     )
 
@@ -202,29 +243,44 @@ def process_source(source_data, index):
 
     for match in matches:
         snippets_found += 1
-        css_content = match.group(1).strip()
+        snippet_name_from_comment = match.group(1)
+        css_content = match.group(2).strip()
         original_line_start = content.count('\n', 0, match.start()) + 1
         original_line_end = content.count('\n', 0, match.end()) + 1
         
-        # Use the map to get the filtered line numbers
         line_start = filtered_lines_map.get(original_line_start, 0)
         line_end = filtered_lines_map.get(original_line_end, 0)
         line_count_diff = line_end - line_start
 
         index_key = f"{source_name}_{source_path.name}_{line_start}_{line_end}"
-        found_match_key = None
+        found_match_info = {}
         
         print(f"\n--- Snippet #{snippets_found} Preview (from lines {line_start}-{line_end}) ---")
         print(css_content)
         print("---------------------------------------")
 
-        # --- New Logic for Duplicate Detection ---
+        # --- Tiered Logic for Matching ---
         
-        # First, check for an exact match (this handles updates after re-running the script)
-        if index_key in index:
-            found_match_key = index_key
-        else:
-            # If no exact match, search for a similar entry by line count difference
+        # Tier 1: Exact minified content match
+        minified_css_content = minify_css(css_content)
+        for existing_key, existing_path in existing_entries_for_source.items():
+            try:
+                with open(existing_path, 'r', encoding='utf-8') as f:
+                    minified_existing_content = minify_css(f.read())
+                if minified_existing_content == minified_css_content:
+                    found_match_info = {"key": existing_key, "action": "update"}
+                    print(f"Found a reliable match by content. Updating index key from '{existing_key}'...")
+                    break
+            except FileNotFoundError:
+                continue
+
+        # Tier 2: Exact index key match
+        if not found_match_info and index_key in index:
+            found_match_info = {"key": index_key, "action": "update"}
+            print("Found an exact key match.")
+
+        # Tier 3: Fallback to line count + proximity check
+        if not found_match_info:
             for existing_key, existing_path in existing_entries_for_source.items():
                 _, _, old_line_start, old_line_end = parse_index_key(existing_key)
                 if old_line_start is None:
@@ -232,61 +288,88 @@ def process_source(source_data, index):
                 old_line_count_diff = old_line_end - old_line_start
                 
                 if line_count_diff == old_line_count_diff:
-                    # Found a match by line count, now check line number proximity
                     line_start_diff = abs(line_start - old_line_start)
                     
                     if line_start_diff <= 30:
-                        # Strong match: update automatically
-                        found_match_key = existing_key
+                        found_match_info = {"key": existing_key, "action": "update"}
                         print(f"Found a strong match ({line_start_diff} lines away). Updating automatically...")
                         break
                     else:
-                        # Weak match: prompt user
                         print(f"Found a weak match by line count ({line_start_diff} lines away) at {existing_key}.")
                         update_choice = input("Do you want to update this entry? (yes/no, default: no): ").strip().lower()
                         if update_choice in ['yes', 'y']:
-                            found_match_key = existing_key
+                            found_match_info = {"key": existing_key, "action": "update"}
+                        else:
+                            found_match_info = {"action": "skip"}
                         break
         
-        if found_match_key:
+        # --- Process the match result ---
+        if found_match_info.get("action") == "update":
+            found_match_key = found_match_info.get("key")
             css_file_path = Path(index[found_match_key])
-            md_file_path = css_file_path.with_suffix('.md')
             
-            # Reconstruct metadata from existing files
-            snippet_name = css_file_path.stem
-            # We don't need to read the description since we are not rewriting the MD file.
-            
-            # Delete old entry from index and add new one with updated key
             del index[found_match_key]
             index[index_key] = str(css_file_path)
             
             print(f"Reusing existing paths: {css_file_path.parent}")
             
-        else:
-            # New entry - prompt for all info
-            snippet_name = input("Enter a name for the snippet (e.g., 'dark-mode-toggle'): ").strip()
-            sub_directory = input("Enter a subdirectory (e.g., 'custom-ui'): ").strip()
-            output_dir = Path("snippets") / source_name / sub_directory
-            output_dir.mkdir(parents=True, exist_ok=True)
-            css_file_path = output_dir / f"{snippet_name}.css"
-            md_file_path = css_file_path.with_suffix('.md')
-            description = input("Enter a brief description for this snippet (optional): ").strip()
+            try:
+                with open(css_file_path, 'w', encoding='utf-8') as f:
+                    f.write(css_content)
+                print(f"Saved CSS to '{css_file_path}'")
+            except Exception as e:
+                print(f"Error writing CSS file: {e}")
+
+        elif found_match_info.get("action") == "skip":
+            print("Skipping this snippet as requested.")
+            continue
+        
+        else: # No match found, proceed to creation
+            # Get metadata from JSON if a name is provided in the source file
+            metadata_entry = metadata.get(source_name, {}).get(snippet_name_from_comment)
             
+            # Use metadata as defaults
+            default_sub_directory = metadata_entry.get("sub_directory", "") if metadata_entry else "uncategorized"
+            default_description = metadata_entry.get("description", "") if metadata_entry else ""
+            default_name = snippet_name_from_comment if snippet_name_from_comment else ""
+
+            if snippet_name_from_comment and metadata_entry:
+                print(f"Found metadata for '{snippet_name_from_comment}' in theme '{source_name}'. Pre-filling prompts.")
+            elif snippet_name_from_comment:
+                print(f"No metadata found for '{snippet_name_from_comment}' in theme '{source_name}'. Falling back to interactive mode.")
+            else:
+                print("No snippet name provided. Falling back to interactive mode.")
+            
+            # Prompts with auto-completion
+            input_name = input(f"Enter a name for the snippet (e.g., 'dark-mode-toggle') [{default_name}]: ").strip()
+            snippet_name = input_name if input_name else default_name
+
+            input_sub_dir = input(f"Enter a subdirectory (e.g., 'custom-ui') [{default_sub_directory}]: ").strip()
+            sub_directory = input_sub_dir if input_sub_dir else default_sub_directory
+
+            input_desc = input(f"Enter a brief description for this snippet (optional) [{default_description}]: ").strip()
+            description = input_desc if input_desc else default_description
+                
             if not snippet_name:
                 print("Skipping this snippet as no name was provided.")
                 continue
 
-        # Save the CSS content
-        try:
-            with open(css_file_path, 'w', encoding='utf-8') as f:
-                f.write(css_content)
-            print(f"Saved CSS to '{css_file_path}'")
-        except Exception as e:
-            print(f"Error writing CSS file: {e}")
+            # NEW: Persist new descriptors to the metadata file only if not using an existing entry
+            if not metadata_entry:
+                save_metadata_entry(source_name, snippet_name, sub_directory, description)
+            
+            output_dir = Path("snippets") / source_name / sub_directory
+            output_dir.mkdir(parents=True, exist_ok=True)
+            css_file_path = output_dir / f"{snippet_name}.css"
+            md_file_path = css_file_path.with_suffix('.md')
 
-        # Conditionally write the Markdown file
-        if not found_match_key:
-            # Only write the Markdown file if it's a brand new entry
+            try:
+                with open(css_file_path, 'w', encoding='utf-8') as f:
+                    f.write(css_content)
+                print(f"Saved CSS to '{css_file_path}'")
+            except Exception as e:
+                print(f"Error writing CSS file: {e}")
+
             markdown_content = f"""\
 ---
 author: {author_name}
@@ -309,8 +392,7 @@ This snippet was automatically extracted from the `{source_name}` theme.
             except Exception as e:
                 print(f"Error writing Markdown file: {e}")
 
-        # Update the index with the saved path
-        index[index_key] = str(css_file_path)
+            index[index_key] = str(css_file_path)
 
     if snippets_found == 0:
         print(f"No snippets found in '{source_name}'.")
@@ -327,13 +409,14 @@ def extract_and_save_snippets():
     env_vars = load_env()
     sources = parse_sources(env_vars)
     index = load_index()
+    metadata = load_metadata()
     
     if not sources or sources[0].get("SOURCE_PATH") is None:
         print("No sources found in .env. Please configure your source files.")
         return
 
     for source_data in sources:
-        process_source(source_data, index)
+        process_source(source_data, index, metadata)
     
     save_index(index)
     print("\nAll processing complete. Index file updated.")

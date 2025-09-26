@@ -6,7 +6,7 @@ license: MIT
 
 # Vertical Ltr
 
-Applies Vertical Left-To-Right (LTR) to your callout content.
+Applies Vertical Left-to-Right (LTR) to your callout content.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 

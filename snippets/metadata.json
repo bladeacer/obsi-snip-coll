@@ -1,0 +1,56 @@
+{
+  "flexcyon": {
+    "tategaki": {
+      "sub_directory": "callouts",
+      "description": "Applies Vertical Right-to-Left (RTL) to your callout content."
+    },
+    "vertical-ltr": {
+      "sub_directory": "callouts",
+      "description": "Applies Vertical Left-to-Right (LTR) to your callout content."
+    },
+    "no-icon": {
+      "sub_directory": "callouts",
+      "description": "Removes the callout icon."
+    },
+    "no-title": {
+      "sub_directory": "callouts",
+      "description": "Removes the callout title."
+    },
+    "bg-transparent": {
+      "sub_directory": "callouts",
+      "description": "Makes the callout background transparent."
+    },
+    "color": {
+      "sub_directory": "callouts",
+      "description": "Specify the target colour for callout title, content or both."
+    },
+    "centre-text": {
+      "sub_directory": "callouts",
+      "description": "Centre the callout title text, the callout content text or both."
+    },
+    "text-direction": {
+      "sub_directory": "callouts",
+      "description": "Centre the callout title text, the callout content text or both."
+    },
+    "text-transform": {
+      "sub_directory": "callouts",
+      "description": "Set text transform options within callout title, content or both."
+    },
+    "extended-color-palette": {
+      "sub_directory": "callouts",
+      "description": "Set the extended colour of choice to callout title, content or both."
+    },
+    "ascii-art": {
+      "sub_directory": "new-tab",
+      "description": "Set customisable ASCII art in new tabs."
+    },
+    "number-tabs": {
+      "sub_directory": "tabs",
+      "description": "Numbers tabs within the same tab group. Works with Stacked Tabs as well."
+    },
+    "filters": {
+      "sub_directory": "accessibility",
+      "description": "Sets the global contrast, brightness and saturation throughout Obsidian."
+    }
+  }
+}

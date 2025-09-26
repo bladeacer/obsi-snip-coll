@@ -6,7 +6,7 @@ license: MIT
 
 # Ascii Art
 
-Sets customsiable ASCII art in new tabs.
+Set customisable ASCII art in new tabs.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 

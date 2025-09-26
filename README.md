@@ -59,6 +59,35 @@ Run the script.
 ./extract-snippets.py
 ```
 
+### Metadata completions
+```css
+/* obsi-snip-coll start: font-size */
+body {
+    font-size: 1.2rem;
+}
+/* obsi-snip-coll end */
+
+```
+
+If the same source and name (in this case `font-size`) matches what is found in
+the metadata file it would load the descriptors for you. This means you should
+only need to enter descriptors once, or can edit the completion options
+[manually here](./snippets/metadata.json).
+
+> This also means you can define descriptors before you ever run the script if
+> you assign each snippet with their names and input their name when prompted
+
+### How are my snippets checked?
+The script never relies on line numbers alone, it follows this hierarchy to
+identify and manage snippets:
+1. Minified CSS Content Match
+2. Line Count Match with Proximity Check
+3. Fallback and Prompting
+
+### Contributing
+PRs, Issues, Bug Reports are welcome. I hope that the script and snippets would
+be useful to the community :D
+
 ## Recommended snippets to install
 - efemkay / [Obsidian Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout#wide-views)
 - HandaArchitect / [obsidian-banner-snippet](https://github.com/HandaArchitect/obsidian-banner-snippet)
