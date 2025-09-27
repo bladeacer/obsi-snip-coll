@@ -1,15 +1,21 @@
 {
-  "flexcyon_theme.css_5503_5513": "snippets/flexcyon/callouts/no-icon.css",
-  "flexcyon_theme.css_5513_5531": "snippets/flexcyon/callouts/no-title.css",
-  "flexcyon_theme.css_5531_5537": "snippets/flexcyon/callouts/bg-transparent.css",
-  "flexcyon_theme.css_6049_6061": "snippets/flexcyon/callouts/centre-text.css",
   "flexcyon_theme.css_3832_3873": "snippets/flexcyon/callouts/tategaki.css",
   "flexcyon_theme.css_3873_3917": "snippets/flexcyon/callouts/vertical-ltr.css",
   "flexcyon_theme.css_3951_4151": "snippets/flexcyon/callouts/color.css",
   "flexcyon_theme.css_4163_4219": "snippets/flexcyon/callouts/text-direction.css",
   "flexcyon_theme.css_4219_4303": "snippets/flexcyon/callouts/text-transform.css",
   "flexcyon_theme.css_4303_5199": "snippets/flexcyon/callouts/extended-color-palette.css",
-  "flexcyon_theme.css_9255_9263": "snippets/flexcyon/accessibility/filters.css",
-  "flexcyon_theme.css_8732_8794": "snippets/flexcyon/new-tab/ascii-art.css",
-  "flexcyon_theme.css_8876_8897": "snippets/flexcyon/tabs/number-tabs.css"
+  "flexcyon_theme.css_5410_5455": "snippets/flexcyon/callouts/tategaki.css",
+  "flexcyon_theme.css_5455_5503": "snippets/flexcyon/callouts/vertical-ltr.css",
+  "flexcyon_theme.css_5503_5513": "snippets/flexcyon/callouts/no-icon.css",
+  "flexcyon_theme.css_5513_5531": "snippets/flexcyon/callouts/no-title.css",
+  "flexcyon_theme.css_5531_5537": "snippets/flexcyon/callouts/bg-transparent.css",
+  "flexcyon_theme.css_5537_6049": "snippets/flexcyon/callouts/color.css",
+  "flexcyon_theme.css_6049_6061": "snippets/flexcyon/callouts/centre-text.css",
+  "flexcyon_theme.css_6061_6149": "snippets/flexcyon/callouts/text-direction.css",
+  "flexcyon_theme.css_6149_6331": "snippets/flexcyon/callouts/text-transform.css",
+  "flexcyon_theme.css_6331_7287": "snippets/flexcyon/callouts/extended-color-palette.css",
+  "flexcyon_theme.css_13556_13618": "snippets/flexcyon/new-tab/ascii-art.css",
+  "flexcyon_theme.css_13712_13735": "snippets/flexcyon/tabs/number-tabs.css",
+  "flexcyon_theme.css_14152_14162": "snippets/flexcyon/accessibility/filters.css"
 }
