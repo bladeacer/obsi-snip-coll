@@ -1,0 +1,27 @@
+div.callout[data-callout*="italic-all"] .callout-title,
+div.callout[data-callout-metadata*="italic-all"] .callout-title,
+div.callout[data-callout*="italic-title"] .callout-title,
+div.callout[data-callout-metadata*="italic-title"] .callout-title {
+  font-style: italic;
+}
+
+div.callout[data-callout*="italic-all"] .callout-content,
+div.callout[data-callout-metadata*="italic-all"] .callout-content,
+div.callout[data-callout*="italic-content"] .callout-content,
+div.callout[data-callout-metadata*="italic-content"] .callout-content {
+  font-style: italic;
+}
+
+div.callout[data-callout*="oblique-all"] .callout-title,
+div.callout[data-callout-metadata*="oblique-all"] .callout-title,
+div.callout[data-callout*="oblique-title"] .callout-title,
+div.callout[data-callout-metadata*="oblique-title"] .callout-title {
+  font-style: oblique;
+}
+
+div.callout[data-callout*="oblique-all"] .callout-content,
+div.callout[data-callout-metadata*="oblique-all"] .callout-content,
+div.callout[data-callout*="oblique-content"] .callout-content,
+div.callout[data-callout-metadata*="oblique-content"] .callout-content {
+  font-style: oblique;
+}

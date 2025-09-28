@@ -1,0 +1,9 @@
+.flexcyon-editor-writing .cm-line,
+.editor-writing .cm-line,
+div.callout[data-callout*="writing"] .callout-content p,
+div.callout[data-callout-metadata*="writing"] .callout-content p {
+  text-indent: var(--flexcyon-editor-writing-indentation);
+  white-space: initial;
+  word-wrap: break-word;
+  margin-block-end: calc(1.25 * var(--p-spacing));
+}

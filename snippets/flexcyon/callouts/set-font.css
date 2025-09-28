@@ -1,0 +1,41 @@
+div.callout[data-callout*="font-interface-all"] .callout-title,
+div.callout[data-callout-metadata*="font-interface-all"] .callout-title,
+div.callout[data-callout*="font-interface-title"] .callout-title,
+div.callout[data-callout-metadata*="font-interface-title"] .callout-title {
+  font-family: var(--font-interface);
+}
+
+div.callout[data-callout*="font-interface-all"] .callout-content,
+div.callout[data-callout-metadata*="font-interface-all"] .callout-content,
+div.callout[data-callout*="font-interface-content"] .callout-content,
+div.callout[data-callout-metadata*="font-interface-content"] .callout-content {
+  font-family: var(--font-interface);
+}
+
+div.callout[data-callout*="font-text-all"] .callout-title,
+div.callout[data-callout-metadata*="font-text-all"] .callout-title,
+div.callout[data-callout*="font-text-title"] .callout-title,
+div.callout[data-callout-metadata*="font-text-title"] .callout-title {
+  font-family: var(--font-text);
+}
+
+div.callout[data-callout*="font-text-all"] .callout-content,
+div.callout[data-callout-metadata*="font-text-all"] .callout-content,
+div.callout[data-callout*="font-text-content"] .callout-content,
+div.callout[data-callout-metadata*="font-text-content"] .callout-content {
+  font-family: var(--font-text);
+}
+
+div.callout[data-callout*="font-monospace-all"] .callout-title,
+div.callout[data-callout-metadata*="font-monospace-all"] .callout-title,
+div.callout[data-callout*="font-monospace-title"] .callout-title,
+div.callout[data-callout-metadata*="font-monospace-title"] .callout-title {
+  font-family: var(--font-monospace);
+}
+
+div.callout[data-callout*="font-monospace-all"] .callout-content,
+div.callout[data-callout-metadata*="font-monospace-all"] .callout-content,
+div.callout[data-callout*="font-monospace-content"] .callout-content,
+div.callout[data-callout-metadata*="font-monospace-content"] .callout-content {
+  font-family: var(--font-monospace);
+}

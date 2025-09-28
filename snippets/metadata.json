@@ -51,6 +51,42 @@
     "filters": {
       "sub_directory": "accessibility",
       "description": "Sets the global contrast, brightness and saturation throughout Obsidian."
+    },
+    "font-style": {
+      "sub_directory": "callouts",
+      "description": "Set the font style of the callout title, content or both."
+    },
+    "text-decoration": {
+      "sub_directory": "callouts",
+      "description": "Sets the text decoration of callout title, content or both."
+    },
+    "heading-title": {
+      "sub_directory": "callouts",
+      "description": "Sets the callout title to inherit the target heading's styles in the theme."
+    },
+    "font-weight": {
+      "sub_directory": "callouts",
+      "description": "Sets the specified font weight as the default for callout title, content or both."
+    },
+    "flashcard": {
+      "sub_directory": "callouts",
+      "description": "Sets the callout to flashcard style. Hover to see callout content."
+    },
+    "writing-mode": {
+      "sub_directory": "callouts",
+      "description": "Sets writing mode which adds text indentation in callouts."
+    },
+    "set-font": {
+      "sub_directory": "callouts",
+      "description": "Set the target font in callout title, content or both."
+    },
+    "lists": {
+      "sub_directory": "callouts",
+      "description": "Set the default ordered and unordered list marker styling in callouts."
+    },
+    "lucide-icons": {
+      "sub_directory": "callouts",
+      "description": "Sets the callout icon to a specified lucide icon value."
     }
   }
 }
