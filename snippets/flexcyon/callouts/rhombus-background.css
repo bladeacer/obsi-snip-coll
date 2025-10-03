@@ -1,0 +1,43 @@
+body.flexcyon-editor-rhombus .canvas-background .canvas-background,
+body.flexcyon-editor-rhombus .kanban-plugin div .canvas-background,
+div.callout[data-callout*="bg-rhombus"] .callout-content .canvas-background,
+div.callout[data-callout-metadata*="bg-rhombus"]
+  .callout-content
+  .canvas-background,
+.editor-rhombus .canvas-background,
+body.flexcyon-editor-rhombus
+  .view-content
+  [class*="markdown-"]
+  .canvas-background {
+  display: none;
+}
+body.flexcyon-editor-rhombus .canvas-background,
+body.flexcyon-editor-rhombus .kanban-plugin div,
+div.callout[data-callout*="bg-rhombus"] .callout-content,
+div.callout[data-callout-metadata*="bg-rhombus"] .callout-content,
+.editor-rhombus,
+body.flexcyon-editor-rhombus .view-content [class*="markdown-"] {
+  background-image:
+    repeating-linear-gradient(
+      calc(30deg + var(--flexcyon-editor-bg-rotation)),
+      var(--flexcyon-editor-bg-color),
+      var(--flexcyon-editor-bg-color) 1px,
+      transparent 1px,
+      transparent var(--flexcyon-editor-bg-width)
+    ),
+    repeating-linear-gradient(
+      calc(150deg + var(--flexcyon-editor-bg-rotation)),
+      var(--flexcyon-editor-bg-color),
+      var(--flexcyon-editor-bg-color) 1px,
+      transparent 1px,
+      transparent var(--flexcyon-editor-bg-width)
+    );
+}
+body.flexcyon-editor-rhombus .canvas-background *,
+body.flexcyon-editor-rhombus .kanban-plugin div *,
+div.callout[data-callout*="bg-rhombus"] .callout-content *,
+div.callout[data-callout-metadata*="bg-rhombus"] .callout-content *,
+.editor-rhombus *,
+body.flexcyon-editor-rhombus .view-content [class*="markdown-"] * {
+  background-image: none;
+}

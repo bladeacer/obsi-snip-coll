@@ -87,6 +87,22 @@
     "lucide-icons": {
       "sub_directory": "callouts",
       "description": "Sets the callout icon to a specified lucide icon value."
+    },
+    "grid-background": {
+      "sub_directory": "callouts",
+      "description": "Sets a grid background in your callouts or as a cssclass."
+    },
+    "dotted-background": {
+      "sub_directory": "callouts",
+      "description": "Sets a dotted background in your callouts or as a cssclass."
+    },
+    "rhombus-background": {
+      "sub_directory": "callouts",
+      "description": "Sets a rhombus background in your callouts or as a cssclass."
+    },
+    "smooth-cursor": {
+      "sub_directory": "cursor",
+      "description": "Configures smooth cursor, supports built in vim mode."
     }
   }
 }
