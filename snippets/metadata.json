@@ -103,6 +103,22 @@
     "smooth-cursor": {
       "sub_directory": "cursor",
       "description": "Configures smooth cursor, supports built in vim mode."
+    },
+    "extended-color": {
+      "sub_directory": "colors",
+      "description": "CSS variable definitions for the extended color palette. Used in extended color callouts snippet."
+    },
+    "tui-callout": {
+      "sub_directory": "callouts",
+      "description": "Styles callouts to resemble TUI interfaces."
+    },
+    "plain-callout": {
+      "sub_directory": "callouts",
+      "description": "Style callouts with an accented title background. Suitable for use in research or academic related notes"
+    },
+    "vertical-callout": {
+      "sub_directory": "callouts",
+      "description": "Displays the callout title in a vertical manner."
     }
   }
 }

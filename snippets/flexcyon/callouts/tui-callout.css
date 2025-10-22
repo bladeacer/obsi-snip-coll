@@ -1,0 +1,359 @@
+.markdown-rendered:has(
+    :is([data-callout*="tui"], [data-callout-metadata*="tui"]):not(
+        :is(
+          [data-callout*="vertical"],
+          [data-callout*="plain"],
+          [data-callout-metadata*="vertical"],
+          [data-callout-metadata*="plain"]
+        )
+      )
+  ) {
+  margin-top: -30px;
+}
+
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  ),
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  ),
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  ) {
+  background-color: var(--background-primary);
+  padding: 0px;
+  margin: 0px;
+}
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-icon,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-icon,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-icon {
+  display: none;
+}
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title {
+  color: var(--text-faint);
+  z-index: 2;
+}
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h1,
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h2,
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h3,
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h4,
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h5,
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h6,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h1,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h2,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h3,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h4,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h5,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h6,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h1,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h2,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h3,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h4,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h5,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title
+  h6 {
+  color: unset;
+  font-size: inherit;
+}
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-title {
+  transform: translate(24px, 50%);
+  min-height: 50px;
+  padding: 2px 8px;
+  width: max-content;
+  background-color: var(--background-primary);
+}
+body.flexcyon-tui-callouts
+  .callout:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-content,
+.callout[data-callout*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-content,
+.callout[data-callout-metadata*="tui"]:not(
+    :is(
+      [data-callout*="vertical"],
+      [data-callout*="plain"],
+      [data-callout-metadata*="vertical"],
+      [data-callout-metadata*="plain"]
+    )
+  )
+  .callout-content {
+  border-radius: var(--flexcyon-callout-radix);
+  border: 1px solid var(--text-faint);
+  padding: 8px 16px;
+  z-index: 1;
+}
