@@ -7,6 +7,8 @@ some of the reasons I decided to make my own:
 - I do not really know where to begin to contribute to all of them
 - I wish to showcase some of the more niche snippets I found or made,
 especially those from my theme flexcyon.
+- Utilities like the bundled snippet extraction script can be used
+in other snippet collections
 
 ## Snippets in this repository
 ### From flexcyon
@@ -51,7 +53,7 @@ vim .env
 Set permissions if you are on Linux.
 
 ```sh
-sudo chmod +x ./extract-snippets.py
+chmod +x ./extract-snippets.py
 ```
 
 Run the script.
@@ -83,6 +85,16 @@ identify and manage snippets:
 1. Minified CSS Content Match
 2. Line Count Match with Proximity Check
 3. Fallback and Prompting
+
+### Why I made the script
+A standardised, theme and vault agnostic means of extracting CSS snippets into my
+CSS snippet collection.
+
+## Troubleshooting
+> Error message, crash when metadata after exiting and re-entering metadata for new snippets.
+
+Remove `metadata.json`. When you run the script again, it will generate an
+updated version in its place.
 
 ### Contributing
 PRs, Issues, Bug Reports are welcome. I hope that the script and snippets would

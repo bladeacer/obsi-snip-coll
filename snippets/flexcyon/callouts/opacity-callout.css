@@ -1,0 +1,293 @@
+.callout[data-callout*="title-opacity-0"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0"] .callout-title,
+.callout[data-callout*="all-opacity-0"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0"] .callout-title {
+  opacity: 0;
+}
+
+.callout[data-callout*="content-opacity-0"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0"] .callout-content,
+.callout[data-callout*="all-opacity-0"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0"] .callout-content {
+  opacity: 0;
+}
+
+.callout[data-callout*="title-opacity-0.05"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.05"] .callout-title,
+.callout[data-callout*="all-opacity-0.05"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.05"] .callout-title {
+  opacity: 0.05;
+}
+
+.callout[data-callout*="content-opacity-0.05"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.05"] .callout-content,
+.callout[data-callout*="all-opacity-0.05"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.05"] .callout-content {
+  opacity: 0.05;
+}
+
+.callout[data-callout*="title-opacity-0.1"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.1"] .callout-title,
+.callout[data-callout*="all-opacity-0.1"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.1"] .callout-title {
+  opacity: 0.1;
+}
+
+.callout[data-callout*="content-opacity-0.1"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.1"] .callout-content,
+.callout[data-callout*="all-opacity-0.1"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.1"] .callout-content {
+  opacity: 0.1;
+}
+
+.callout[data-callout*="title-opacity-0.15"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.15"] .callout-title,
+.callout[data-callout*="all-opacity-0.15"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.15"] .callout-title {
+  opacity: 0.15;
+}
+
+.callout[data-callout*="content-opacity-0.15"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.15"] .callout-content,
+.callout[data-callout*="all-opacity-0.15"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.15"] .callout-content {
+  opacity: 0.15;
+}
+
+.callout[data-callout*="title-opacity-0.2"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.2"] .callout-title,
+.callout[data-callout*="all-opacity-0.2"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.2"] .callout-title {
+  opacity: 0.2;
+}
+
+.callout[data-callout*="content-opacity-0.2"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.2"] .callout-content,
+.callout[data-callout*="all-opacity-0.2"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.2"] .callout-content {
+  opacity: 0.2;
+}
+
+.callout[data-callout*="title-opacity-0.25"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.25"] .callout-title,
+.callout[data-callout*="all-opacity-0.25"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.25"] .callout-title {
+  opacity: 0.25;
+}
+
+.callout[data-callout*="content-opacity-0.25"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.25"] .callout-content,
+.callout[data-callout*="all-opacity-0.25"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.25"] .callout-content {
+  opacity: 0.25;
+}
+
+.callout[data-callout*="title-opacity-0.3"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.3"] .callout-title,
+.callout[data-callout*="all-opacity-0.3"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.3"] .callout-title {
+  opacity: 0.3;
+}
+
+.callout[data-callout*="content-opacity-0.3"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.3"] .callout-content,
+.callout[data-callout*="all-opacity-0.3"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.3"] .callout-content {
+  opacity: 0.3;
+}
+
+.callout[data-callout*="title-opacity-0.35"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.35"] .callout-title,
+.callout[data-callout*="all-opacity-0.35"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.35"] .callout-title {
+  opacity: 0.35;
+}
+
+.callout[data-callout*="content-opacity-0.35"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.35"] .callout-content,
+.callout[data-callout*="all-opacity-0.35"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.35"] .callout-content {
+  opacity: 0.35;
+}
+
+.callout[data-callout*="title-opacity-0.4"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.4"] .callout-title,
+.callout[data-callout*="all-opacity-0.4"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.4"] .callout-title {
+  opacity: 0.4;
+}
+
+.callout[data-callout*="content-opacity-0.4"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.4"] .callout-content,
+.callout[data-callout*="all-opacity-0.4"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.4"] .callout-content {
+  opacity: 0.4;
+}
+
+.callout[data-callout*="title-opacity-0.45"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.45"] .callout-title,
+.callout[data-callout*="all-opacity-0.45"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.45"] .callout-title {
+  opacity: 0.45;
+}
+
+.callout[data-callout*="content-opacity-0.45"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.45"] .callout-content,
+.callout[data-callout*="all-opacity-0.45"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.45"] .callout-content {
+  opacity: 0.45;
+}
+
+.callout[data-callout*="title-opacity-0.5"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.5"] .callout-title,
+.callout[data-callout*="all-opacity-0.5"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.5"] .callout-title {
+  opacity: 0.5;
+}
+
+.callout[data-callout*="content-opacity-0.5"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.5"] .callout-content,
+.callout[data-callout*="all-opacity-0.5"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.5"] .callout-content {
+  opacity: 0.5;
+}
+
+.callout[data-callout*="title-opacity-0.55"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.55"] .callout-title,
+.callout[data-callout*="all-opacity-0.55"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.55"] .callout-title {
+  opacity: 0.55;
+}
+
+.callout[data-callout*="content-opacity-0.55"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.55"] .callout-content,
+.callout[data-callout*="all-opacity-0.55"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.55"] .callout-content {
+  opacity: 0.55;
+}
+
+.callout[data-callout*="title-opacity-0.6"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.6"] .callout-title,
+.callout[data-callout*="all-opacity-0.6"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.6"] .callout-title {
+  opacity: 0.6;
+}
+
+.callout[data-callout*="content-opacity-0.6"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.6"] .callout-content,
+.callout[data-callout*="all-opacity-0.6"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.6"] .callout-content {
+  opacity: 0.6;
+}
+
+.callout[data-callout*="title-opacity-0.65"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.65"] .callout-title,
+.callout[data-callout*="all-opacity-0.65"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.65"] .callout-title {
+  opacity: 0.65;
+}
+
+.callout[data-callout*="content-opacity-0.65"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.65"] .callout-content,
+.callout[data-callout*="all-opacity-0.65"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.65"] .callout-content {
+  opacity: 0.65;
+}
+
+.callout[data-callout*="title-opacity-0.7"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.7"] .callout-title,
+.callout[data-callout*="all-opacity-0.7"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.7"] .callout-title {
+  opacity: 0.7;
+}
+
+.callout[data-callout*="content-opacity-0.7"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.7"] .callout-content,
+.callout[data-callout*="all-opacity-0.7"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.7"] .callout-content {
+  opacity: 0.7;
+}
+
+.callout[data-callout*="title-opacity-0.75"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.75"] .callout-title,
+.callout[data-callout*="all-opacity-0.75"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.75"] .callout-title {
+  opacity: 0.75;
+}
+
+.callout[data-callout*="content-opacity-0.75"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.75"] .callout-content,
+.callout[data-callout*="all-opacity-0.75"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.75"] .callout-content {
+  opacity: 0.75;
+}
+
+.callout[data-callout*="title-opacity-0.8"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.8"] .callout-title,
+.callout[data-callout*="all-opacity-0.8"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.8"] .callout-title {
+  opacity: 0.8;
+}
+
+.callout[data-callout*="content-opacity-0.8"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.8"] .callout-content,
+.callout[data-callout*="all-opacity-0.8"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.8"] .callout-content {
+  opacity: 0.8;
+}
+
+.callout[data-callout*="title-opacity-0.85"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.85"] .callout-title,
+.callout[data-callout*="all-opacity-0.85"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.85"] .callout-title {
+  opacity: 0.85;
+}
+
+.callout[data-callout*="content-opacity-0.85"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.85"] .callout-content,
+.callout[data-callout*="all-opacity-0.85"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.85"] .callout-content {
+  opacity: 0.85;
+}
+
+.callout[data-callout*="title-opacity-0.9"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.9"] .callout-title,
+.callout[data-callout*="all-opacity-0.9"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.9"] .callout-title {
+  opacity: 0.9;
+}
+
+.callout[data-callout*="content-opacity-0.9"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.9"] .callout-content,
+.callout[data-callout*="all-opacity-0.9"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.9"] .callout-content {
+  opacity: 0.9;
+}
+
+.callout[data-callout*="title-opacity-0.95"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-0.95"] .callout-title,
+.callout[data-callout*="all-opacity-0.95"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-0.95"] .callout-title {
+  opacity: 0.95;
+}
+
+.callout[data-callout*="content-opacity-0.95"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-0.95"] .callout-content,
+.callout[data-callout*="all-opacity-0.95"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-0.95"] .callout-content {
+  opacity: 0.95;
+}
+
+.callout[data-callout*="title-opacity-1"] .callout-title,
+.callout[data-callout-metadata*="title-opacity-1"] .callout-title,
+.callout[data-callout*="all-opacity-1"] .callout-title,
+.callout[data-callout-metadata*="all-opacity-1"] .callout-title {
+  opacity: 1;
+}
+
+.callout[data-callout*="content-opacity-1"] .callout-content,
+.callout[data-callout-metadata*="content-opacity-1"] .callout-content,
+.callout[data-callout*="all-opacity-1"] .callout-content,
+.callout[data-callout-metadata*="all-opacity-1"] .callout-content {
+  opacity: 1;
+}

@@ -119,6 +119,18 @@
     "vertical-callout": {
       "sub_directory": "callouts",
       "description": "Displays the callout title in a vertical manner."
+    },
+    "tilt": {
+      "sub_directory": "callouts",
+      "description": "Tilt the callout title, content, or both."
+    },
+    "font-size-callout": {
+      "sub_directory": "callouts",
+      "description": "Set the font size based on UI font size for callout title, content or both."
+    },
+    "opacity-callout": {
+      "sub_directory": "callouts",
+      "description": "Set the opacity of callout title, content or both in increments of 0.05."
     }
   }
 }
