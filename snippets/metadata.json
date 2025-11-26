@@ -131,6 +131,10 @@
     "opacity-callout": {
       "sub_directory": "callouts",
       "description": "Set the opacity of callout title, content or both in increments of 0.05."
+    },
+    "improved-slides": {
+      "sub_directory": "plugins",
+      "description": "Improves the appearnce of Core Slides plugin with better defaults."
     }
   }
 }
