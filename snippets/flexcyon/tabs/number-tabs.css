@@ -16,8 +16,6 @@ body.flexcyon-number-tabs .workspace-tab-header {
   counter-increment: numTab;
 }
 body.flexcyon-rtz-mode .mod-stacked .workspace-tab-header-inner-title::before,
-body.flexcyon-number-tabs
-  .mod-stacked
-  .workspace-tab-header-inner-title::before {
+body.flexcyon-number-tabs .mod-stacked .workspace-tab-header-inner-title::before {
   margin-bottom: 12px;
 }

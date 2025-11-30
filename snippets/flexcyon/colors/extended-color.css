@@ -1,13 +1,21 @@
 body.flexcyon-flex-max-mode,
 body.flexcyon-ext-colors-enabled {
-  --color-red-blue-mix: color-mix(in hsl, var(--color-red), var(--color-blue));
+  --color-red-blue-mix: color-mix(
+    in hsl,
+    var(--color-red),
+    var(--color-blue)
+  );
   --color-red-blue-mix-bg: color-mix(
     in hsl,
     color-mix(in hsl, var(--color-red), var(--color-blue))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
-  --color-blue-red-mix: color-mix(in hsl, var(--color-blue), var(--color-red));
+  --color-blue-red-mix: color-mix(
+    in hsl,
+    var(--color-blue),
+    var(--color-red)
+  );
   --color-blue-red-mix-bg: color-mix(
     in hsl,
     color-mix(in hsl, var(--color-blue), var(--color-red))
@@ -80,14 +88,22 @@ body.flexcyon-ext-colors-enabled {
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
-  --color-red-cyan-mix: color-mix(in hsl, var(--color-red), var(--color-cyan));
+  --color-red-cyan-mix: color-mix(
+    in hsl,
+    var(--color-red),
+    var(--color-cyan)
+  );
   --color-red-cyan-mix-bg: color-mix(
     in hsl,
     color-mix(in hsl, var(--color-red), var(--color-cyan))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
-  --color-cyan-red-mix: color-mix(in hsl, var(--color-cyan), var(--color-red));
+  --color-cyan-red-mix: color-mix(
+    in hsl,
+    var(--color-cyan),
+    var(--color-red)
+  );
   --color-cyan-red-mix-bg: color-mix(
     in hsl,
     color-mix(in hsl, var(--color-cyan), var(--color-red))
@@ -116,14 +132,22 @@ body.flexcyon-ext-colors-enabled {
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
-  --color-red-pink-mix: color-mix(in hsl, var(--color-red), var(--color-pink));
+  --color-red-pink-mix: color-mix(
+    in hsl,
+    var(--color-red),
+    var(--color-pink)
+  );
   --color-red-pink-mix-bg: color-mix(
     in hsl,
     color-mix(in hsl, var(--color-red), var(--color-pink))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
-  --color-pink-red-mix: color-mix(in hsl, var(--color-pink), var(--color-red));
+  --color-pink-red-mix: color-mix(
+    in hsl,
+    var(--color-pink),
+    var(--color-red)
+  );
   --color-pink-red-mix-bg: color-mix(
     in hsl,
     color-mix(in hsl, var(--color-pink), var(--color-red))

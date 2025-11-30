@@ -1,7 +1,6 @@
 {
   "flexcyon_theme.css_9159_9641": "snippets/flexcyon/callouts/tui-callout.css",
   "flexcyon_theme.css_14687_14752": "snippets/flexcyon/new-tab/ascii-art.css",
-  "flexcyon_theme.css_53_648": "snippets/flexcyon/colors/extended-color.css",
   "flexcyon_theme.css_2986_3016": "snippets/flexcyon/callouts/grid-background.css",
   "flexcyon_theme.css_3056_3078": "snippets/flexcyon/callouts/dotted-background.css",
   "flexcyon_theme.css_3110_3153": "snippets/flexcyon/callouts/rhombus-background.css",
@@ -31,8 +30,20 @@
   "flexcyon_theme.css_11639_11687": "snippets/flexcyon/callouts/font-size-callout.css",
   "flexcyon_theme.css_11687_11939": "snippets/flexcyon/callouts/opacity-callout.css",
   "flexcyon_theme.css_14798_14901": "snippets/flexcyon/new-tab/ascii-art.css",
-  "flexcyon_theme.css_15040_15063": "snippets/flexcyon/tabs/number-tabs.css",
-  "flexcyon_theme.css_15522_15532": "snippets/flexcyon/accessibility/filters.css",
-  "flexcyon_theme.css_15537_15542": "snippets/flexcyon/cursor/smooth-cursor.css",
-  "flexcyon_theme.css_16621_17784": "snippets/flexcyon/plugins/improved-slides.css"
+  "flexcyon_theme.css_16621_17784": "snippets/flexcyon/plugins/improved-slides.css",
+  "flexcyon_theme.css_53_672": "snippets/flexcyon/colors/extended-color.css",
+  "flexcyon_theme.css_2525_2541": "snippets/flexcyon/callouts/grid-background.css",
+  "flexcyon_theme.css_4214_4255": "snippets/flexcyon/callouts/tategaki.css",
+  "flexcyon_theme.css_4332_4532": "snippets/flexcyon/callouts/color.css",
+  "flexcyon_theme.css_4544_4600": "snippets/flexcyon/callouts/text-direction.css",
+  "flexcyon_theme.css_4600_4684": "snippets/flexcyon/callouts/text-transform.css",
+  "flexcyon_theme.css_5825_5859": "snippets/flexcyon/callouts/flashcard.css",
+  "flexcyon_theme.css_6708_6787": "snippets/flexcyon/callouts/tui-callout.css",
+  "flexcyon_theme.css_6979_7163": "snippets/flexcyon/callouts/plain-callout.css",
+  "flexcyon_theme.css_7163_7410": "snippets/flexcyon/callouts/vertical-callout.css",
+  "flexcyon_theme.css_9355_9445": "snippets/flexcyon/new-tab/ascii-art.css",
+  "flexcyon_theme.css_9526_9547": "snippets/flexcyon/tabs/number-tabs.css",
+  "flexcyon_theme.css_9937_9945": "snippets/flexcyon/accessibility/filters.css",
+  "flexcyon_theme.css_9950_9954": "snippets/flexcyon/cursor/smooth-cursor.css",
+  "flexcyon_theme.css_10846_11708": "snippets/flexcyon/plugins/improved-slides.css"
 }

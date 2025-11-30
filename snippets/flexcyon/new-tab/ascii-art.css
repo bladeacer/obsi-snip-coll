@@ -84,24 +84,11 @@ body.flexcyon-ascii-enable .reveal .pause-overlay::before {
   margin: auto;
   max-width: max-content;
   max-height: max-content;
-  right: 0;
-  left: 36px;
-  top: 0;
-  bottom: 40px;
+  inset: 0 0 40px 36px;
 }
 
-body.is-mobile.flexcyon-flex-max-mode
-  .workspace-leaf
-  > div
-  > div
-  > div.empty-state
-  > div.empty-state-container::before,
-body.is-mobile.flexcyon-ascii-enable
-  .workspace-leaf
-  > div
-  > div
-  > div.empty-state
-  > div.empty-state-container::before {
+body.is-mobile.flexcyon-flex-max-mode .workspace-leaf > div > div > div.empty-state > div.empty-state-container::before,
+body.is-mobile.flexcyon-ascii-enable .workspace-leaf > div > div > div.empty-state > div.empty-state-container::before {
   font-size: min(3vw - 3px, var(--flexcyon-ascii-max-font-size));
   margin-bottom: 1rem;
   line-height: 0.8;

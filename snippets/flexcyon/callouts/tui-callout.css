@@ -1,483 +1,79 @@
-.markdown-rendered:has(
-    :is([data-callout*="tui"], [data-callout-metadata*="tui"]):not(
-        :is(
-          [data-callout*="vertical"],
-          [data-callout*="plain"],
-          [data-callout-metadata*="vertical"],
-          [data-callout-metadata*="plain"]
-        )
-      )
-  ) {
+.markdown-rendered:has(:is([data-callout*=tui], [data-callout-metadata*=tui]):not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain]))) {
   margin-top: -25px;
 }
 
-body.flexcyon-tui-no-icons
-  .callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-icon,
-body.flexcyon-tui-no-icons
-  .callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-icon,
-body.flexcyon-tui-callouts.flexcyon-tui-no-icons
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-icon {
+body.flexcyon-tui-no-icons .callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-icon,
+body.flexcyon-tui-no-icons .callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-icon,
+body.flexcyon-tui-callouts.flexcyon-tui-no-icons .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-icon {
   display: none;
 }
 
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  ),
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  ),
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  ) {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])),
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])),
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) {
   background-color: var(--background-primary);
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   --callout-color: var(--text-faint);
 }
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-fold,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-fold,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-fold {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-fold,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-fold,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-fold {
   display: none;
 }
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title {
   color: var(--text-faint);
   z-index: 2;
 }
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h1,
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h2,
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h3,
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h4,
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h5,
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h6,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h1,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h2,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h3,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h4,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h5,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h6,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h1,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h2,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h3,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h4,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h5,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  h6 {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h1,
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h2,
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h3,
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h4,
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h5,
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h6,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h1,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h2,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h3,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h4,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h5,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h6,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h1,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h2,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h3,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h4,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h5,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title h6 {
   color: unset;
   font-size: inherit;
 }
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title {
   transform: translate(24px, 50%);
-  padding: 0px 8px;
+  padding: 0 8px;
   width: max-content;
   background-color: var(--background-primary);
 }
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  div,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  div,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title
-  div {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title div,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title div,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title div {
   transform: translateY(-2px);
 }
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  ).is-collapsed
-  .callout-title,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  ).is-collapsed
-  .callout-title,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  ).is-collapsed
-  .callout-title {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])).is-collapsed .callout-title,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])).is-collapsed .callout-title,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])).is-collapsed .callout-title {
   min-height: 40px;
 }
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title:not(:has(~ .callout-content)),
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title:not(:has(~ .callout-content)),
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-title:not(:has(~ .callout-content)) {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title:not(:has(~ .callout-content)),
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title:not(:has(~ .callout-content)),
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-title:not(:has(~ .callout-content)) {
   height: 40px;
 }
-body.flexcyon-tui-callouts
-  .callout:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-content,
-.callout[data-callout*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-content,
-.callout[data-callout-metadata*="tui"]:not(
-    :is(
-      [data-callout*="vertical"],
-      [data-callout*="plain"],
-      [data-callout-metadata*="vertical"],
-      [data-callout-metadata*="plain"]
-    )
-  )
-  .callout-content {
+body.flexcyon-tui-callouts .callout:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-content,
+.callout[data-callout*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-content,
+.callout[data-callout-metadata*=tui]:not(:is([data-callout*=vertical], [data-callout*=plain], [data-callout-metadata*=vertical], [data-callout-metadata*=plain])) .callout-content {
   border-radius: var(--flexcyon-callout-radix);
   border: 1px solid var(--text-faint);
   padding: 8px 16px;
