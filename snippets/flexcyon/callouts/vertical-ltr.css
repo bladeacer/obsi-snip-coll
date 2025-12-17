@@ -1,48 +1,42 @@
-div.callout[data-callout*="vert-ltr"] div.callout-content,
-div.callout[data-callout-metadata*="vert-ltr"] div.callout-content {
+div.callout[data-callout*=vert-ltr] div.callout-content,
+div.callout[data-callout-metadata*=vert-ltr] div.callout-content {
   writing-mode: vertical-lr;
-  overflow-y: scroll;
-  overflow-x: scroll;
-  max-width: 95%;
-  padding-top: 2vh;
-  padding-bottom: 1vh !important;
+  overflow: scroll;
+  max-inline-size: 95%;
+  padding-block: 2vh 1vh;
   line-height: 1.667;
   margin: auto;
-  min-height: max-content !important;
+  min-block-size: max-content !important;
   text-indent: 1rem;
   letter-spacing: var(--font-ui-large);
 }
-div.callout[data-callout*="vert-ltr"] div.callout-content h1,
-div.callout[data-callout-metadata*="vert-ltr"] div.callout-content h1 {
+div.callout[data-callout*=vert-ltr] div.callout-content h1,
+div.callout[data-callout-metadata*=vert-ltr] div.callout-content h1 {
   letter-spacing: var(--h1-size);
 }
-div.callout[data-callout*="vert-ltr"] div.callout-content h2,
-div.callout[data-callout-metadata*="vert-ltr"] div.callout-content h2 {
+div.callout[data-callout*=vert-ltr] div.callout-content h2,
+div.callout[data-callout-metadata*=vert-ltr] div.callout-content h2 {
   letter-spacing: var(--h2-size);
 }
-div.callout[data-callout*="vert-ltr"] div.callout-content h3,
-div.callout[data-callout-metadata*="vert-ltr"] div.callout-content h3 {
+div.callout[data-callout*=vert-ltr] div.callout-content h3,
+div.callout[data-callout-metadata*=vert-ltr] div.callout-content h3 {
   letter-spacing: var(--h3-size);
 }
-div.callout[data-callout*="vert-ltr"] div.callout-content h4,
-div.callout[data-callout-metadata*="vert-ltr"] div.callout-content h4 {
+div.callout[data-callout*=vert-ltr] div.callout-content h4,
+div.callout[data-callout-metadata*=vert-ltr] div.callout-content h4 {
   letter-spacing: var(--h4-size);
 }
-div.callout[data-callout*="vert-ltr"] div.callout-content h5,
-div.callout[data-callout-metadata*="vert-ltr"] div.callout-content h5 {
+div.callout[data-callout*=vert-ltr] div.callout-content h5,
+div.callout[data-callout-metadata*=vert-ltr] div.callout-content h5 {
   letter-spacing: var(--h5-size);
 }
-div.callout[data-callout*="vert-ltr"] div.callout-content h6,
-div.callout[data-callout-metadata*="vert-ltr"] div.callout-content h6 {
+div.callout[data-callout*=vert-ltr] div.callout-content h6,
+div.callout[data-callout-metadata*=vert-ltr] div.callout-content h6 {
   letter-spacing: var(--h6-size);
 }
-div.callout[data-callout*="vert-ltr"]
-  div.callout-content
-  :is(h1, h2, h3, h4, h5, h6),
-div.callout[data-callout-metadata*="vert-ltr"]
-  div.callout-content
-  :is(h1, h2, h3, h4, h5, h6) {
-  margin-top: 0;
+div.callout[data-callout*=vert-ltr] div.callout-content :is(h1, h2, h3, h4, h5, h6),
+div.callout[data-callout-metadata*=vert-ltr] div.callout-content :is(h1, h2, h3, h4, h5, h6) {
+  margin-block-start: 0;
   line-height: 1.667;
-  min-height: auto !important;
+  min-block-size: auto !important;
 }

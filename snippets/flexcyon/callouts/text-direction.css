@@ -25,7 +25,7 @@ div.callout[data-callout*=rtl-content] div.callout-content code[class*=language-
 div.callout[data-callout*=rtl-content] div.callout-content pre[class*=language-],
 div.callout[data-callout-metadata*=rtl-content] div.callout-content code[class*=language-],
 div.callout[data-callout-metadata*=rtl-content] div.callout-content pre[class*=language-] {
-  text-align: right;
+  text-align: end;
 }
 
 div.callout[data-callout*=ltr-all] div.callout-title *,
@@ -55,5 +55,5 @@ div.callout[data-callout*=ltr-content] div.callout-content code[class*=language-
 div.callout[data-callout*=ltr-content] div.callout-content pre[class*=language-],
 div.callout[data-callout-metadata*=ltr-content] div.callout-content code[class*=language-],
 div.callout[data-callout-metadata*=ltr-content] div.callout-content pre[class*=language-] {
-  text-align: left;
+  text-align: start;
 }

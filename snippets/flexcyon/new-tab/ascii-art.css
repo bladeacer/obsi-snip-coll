@@ -1,7 +1,3 @@
-body .empty-state-container {
-  content-visibility: auto;
-}
-
 body.theme-dark {
   --flexcyon-new-tab-bg-wrapper: linear-gradient(
     to right,
@@ -37,6 +33,7 @@ body {
   /_/      /_/  \\___//_/|_| \\___/ _\\__, / \\____//_/ /_/ \a\
                                   /____/                \a\a\a ";
   --flexcyon-ascii-alignment: left;
+  --flexcyon-new-tab-font-group: var(--font-monospace);
 }
 body div.empty-state-action {
   font-size: 1.05rem;
@@ -45,6 +42,9 @@ body div.empty-state-action {
 }
 body div.empty-state-title {
   font-size: 1.25rem;
+}
+body .empty-state-container {
+  content-visibility: auto;
 }
 
 body.flexcyon-flex-max-mode div.empty-state,
@@ -57,15 +57,15 @@ body.flexcyon-ascii-enable div.empty-state-title {
 }
 body.flexcyon-flex-max-mode div.empty-state-container,
 body.flexcyon-ascii-enable div.empty-state-container {
-  max-width: var(--flexcyon-ascii-max-width);
-  max-height: unset;
+  max-inline-size: var(--flexcyon-ascii-max-width);
+  max-block-size: unset;
   scale: var(--flexcyon-ascii-scaling-factor);
 }
 body.flexcyon-flex-max-mode .reveal .pause-overlay::before,
 body.flexcyon-flex-max-mode div.empty-state-container::before,
 body.flexcyon-ascii-enable .reveal .pause-overlay::before,
 body.flexcyon-ascii-enable div.empty-state-container::before {
-  font-family: var(--font-interface);
+  font-family: var(--flexcyon-new-tab-font-group);
   content: var(--flexcyon-ascii-art);
   font-weight: bold;
   background: var(--flexcyon-new-tab-bg-wrapper);
@@ -75,21 +75,21 @@ body.flexcyon-ascii-enable div.empty-state-container::before {
   white-space: pre;
   text-align: var(--flexcyon-ascii-alignment);
   display: inline;
-  font-size: min(3vw - 3.25px, var(--flexcyon-ascii-max-font-size));
+  font-size: min(5vw - 3.25px, var(--flexcyon-ascii-max-font-size));
 }
 body.flexcyon-flex-max-mode .reveal .pause-overlay::before,
 body.flexcyon-ascii-enable .reveal .pause-overlay::before {
   position: absolute;
   line-height: calc(var(--flexcyon-ascii-line-height) + 0.25);
   margin: auto;
-  max-width: max-content;
-  max-height: max-content;
+  max-inline-size: max-content;
+  max-block-size: max-content;
   inset: 0 0 40px 36px;
 }
 
 body.is-mobile.flexcyon-flex-max-mode .workspace-leaf > div > div > div.empty-state > div.empty-state-container::before,
 body.is-mobile.flexcyon-ascii-enable .workspace-leaf > div > div > div.empty-state > div.empty-state-container::before {
-  font-size: min(3vw - 3px, var(--flexcyon-ascii-max-font-size));
-  margin-bottom: 1rem;
+  font-size: min(3.5vw - 3px, var(--flexcyon-ascii-max-font-size));
+  margin-block-end: 1rem;
   line-height: 0.8;
 }
