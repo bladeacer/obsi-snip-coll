@@ -1,13 +1,14 @@
 div.callout[data-callout*=tategaki] div.callout-content,
 div.callout[data-callout-metadata*=tategaki] div.callout-content {
-  writing-mode: vertical-rl;
-  overflow: scroll;
   max-inline-size: 95%;
   padding-block: 2vh 1vh;
-  line-height: 1.667;
   margin: auto;
+  overflow: scroll;
+  overscroll-behavior: contain;
+  line-height: 1.667;
   text-indent: 1rem;
   letter-spacing: var(--font-ui-large);
+  writing-mode: vertical-rl;
 }
 div.callout[data-callout*=tategaki] div.callout-content h1,
 div.callout[data-callout-metadata*=tategaki] div.callout-content h1 {

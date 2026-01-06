@@ -1,14 +1,15 @@
 div.callout[data-callout*=vert-ltr] div.callout-content,
 div.callout[data-callout-metadata*=vert-ltr] div.callout-content {
-  writing-mode: vertical-lr;
-  overflow: scroll;
   max-inline-size: 95%;
-  padding-block: 2vh 1vh;
-  line-height: 1.667;
-  margin: auto;
   min-block-size: max-content !important;
+  padding-block: 2vh 1vh;
+  margin: auto;
+  overflow: scroll;
+  overscroll-behavior: contain;
+  line-height: 1.667;
   text-indent: 1rem;
   letter-spacing: var(--font-ui-large);
+  writing-mode: vertical-lr;
 }
 div.callout[data-callout*=vert-ltr] div.callout-content h1,
 div.callout[data-callout-metadata*=vert-ltr] div.callout-content h1 {
@@ -36,7 +37,7 @@ div.callout[data-callout-metadata*=vert-ltr] div.callout-content h6 {
 }
 div.callout[data-callout*=vert-ltr] div.callout-content :is(h1, h2, h3, h4, h5, h6),
 div.callout[data-callout-metadata*=vert-ltr] div.callout-content :is(h1, h2, h3, h4, h5, h6) {
+  min-block-size: auto !important;
   margin-block-start: 0;
   line-height: 1.667;
-  min-block-size: auto !important;
 }

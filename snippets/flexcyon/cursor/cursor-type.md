@@ -4,10 +4,10 @@ source: https://github.com/bladeacer/flexcyon
 license: MIT
 ---
 
-# Smooth Cursor
+# Cursor Type
 
-Configures smooth cursor in built in vim mode.
+Configures default cursor type when it is not specified by the app.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 
-[View this file](./smooth-cursor.css)
+[View this file](./cursor-type.css)

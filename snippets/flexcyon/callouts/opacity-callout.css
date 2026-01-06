@@ -1,14 +1,14 @@
-.callout[data-callout*="title-opacity-0"] .callout-title,
-.callout[data-callout-metadata*="title-opacity-0"] .callout-title,
-.callout[data-callout*="all-opacity-0"] .callout-title,
-.callout[data-callout-metadata*="all-opacity-0"] .callout-title {
+.callout[data-callout*=title-opacity-0] .callout-title,
+.callout[data-callout-metadata*=title-opacity-0] .callout-title,
+.callout[data-callout*=all-opacity-0] .callout-title,
+.callout[data-callout-metadata*=all-opacity-0] .callout-title {
   opacity: 0;
 }
 
-.callout[data-callout*="content-opacity-0"] .callout-content,
-.callout[data-callout-metadata*="content-opacity-0"] .callout-content,
-.callout[data-callout*="all-opacity-0"] .callout-content,
-.callout[data-callout-metadata*="all-opacity-0"] .callout-content {
+.callout[data-callout*=content-opacity-0] .callout-content,
+.callout[data-callout-metadata*=content-opacity-0] .callout-content,
+.callout[data-callout*=all-opacity-0] .callout-content,
+.callout[data-callout-metadata*=all-opacity-0] .callout-content {
   opacity: 0;
 }
 
@@ -278,16 +278,16 @@
   opacity: 0.95;
 }
 
-.callout[data-callout*="title-opacity-1"] .callout-title,
-.callout[data-callout-metadata*="title-opacity-1"] .callout-title,
-.callout[data-callout*="all-opacity-1"] .callout-title,
-.callout[data-callout-metadata*="all-opacity-1"] .callout-title {
+.callout[data-callout*=title-opacity-1] .callout-title,
+.callout[data-callout-metadata*=title-opacity-1] .callout-title,
+.callout[data-callout*=all-opacity-1] .callout-title,
+.callout[data-callout-metadata*=all-opacity-1] .callout-title {
   opacity: 1;
 }
 
-.callout[data-callout*="content-opacity-1"] .callout-content,
-.callout[data-callout-metadata*="content-opacity-1"] .callout-content,
-.callout[data-callout*="all-opacity-1"] .callout-content,
-.callout[data-callout-metadata*="all-opacity-1"] .callout-content {
+.callout[data-callout*=content-opacity-1] .callout-content,
+.callout[data-callout-metadata*=content-opacity-1] .callout-content,
+.callout[data-callout*=all-opacity-1] .callout-content,
+.callout[data-callout-metadata*=all-opacity-1] .callout-content {
   opacity: 1;
 }

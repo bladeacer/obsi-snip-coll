@@ -4,12 +4,12 @@ body.flexcyon-number-tabs {
 }
 body.flexcyon-rtz-mode .workspace-tab-header-inner-title::before,
 body.flexcyon-number-tabs .workspace-tab-header-inner-title::before {
-  content: counter(numTab);
-  color: inherit;
-  font-weight: bold;
-  margin-right: 12px;
-  font-size: var(--font-ui-medium);
+  margin-inline-end: 12px;
   overflow: hidden;
+  font-size: var(--font-ui-medium);
+  font-weight: bold;
+  color: inherit;
+  content: counter(numTab);
 }
 body.flexcyon-rtz-mode .workspace-tab-header,
 body.flexcyon-number-tabs .workspace-tab-header {
@@ -17,5 +17,5 @@ body.flexcyon-number-tabs .workspace-tab-header {
 }
 body.flexcyon-rtz-mode .mod-stacked .workspace-tab-header-inner-title::before,
 body.flexcyon-number-tabs .mod-stacked .workspace-tab-header-inner-title::before {
-  margin-bottom: 12px;
+  margin-block-end: 12px;
 }

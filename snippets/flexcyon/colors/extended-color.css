@@ -7,7 +7,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-red-blue-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-red), var(--color-blue))
+    color-mix(in oklch, var(--color-red), var(--color-blue))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -18,7 +18,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-blue-red-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-blue), var(--color-red))
+    color-mix(in oklch, var(--color-blue), var(--color-red))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -29,7 +29,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-red-orange-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-red), var(--color-orange))
+    color-mix(in oklch, var(--color-red), var(--color-orange))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -40,7 +40,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-orange-red-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-orange), var(--color-red))
+    color-mix(in oklch, var(--color-orange), var(--color-red))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -51,7 +51,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-red-yellow-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-red), var(--color-yellow))
+    color-mix(in oklch, var(--color-red), var(--color-yellow))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -62,7 +62,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-yellow-red-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-yellow), var(--color-red))
+    color-mix(in oklch, var(--color-yellow), var(--color-red))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -73,7 +73,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-red-green-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-red), var(--color-green))
+    color-mix(in oklch, var(--color-red), var(--color-green))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -84,7 +84,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-green-red-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-green), var(--color-red))
+    color-mix(in oklch, var(--color-green), var(--color-red))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -95,7 +95,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-red-cyan-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-red), var(--color-cyan))
+    color-mix(in oklch, var(--color-red), var(--color-cyan))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -106,7 +106,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-cyan-red-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-cyan), var(--color-red))
+    color-mix(in oklch, var(--color-cyan), var(--color-red))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -117,7 +117,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-red-purple-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-red), var(--color-purple))
+    color-mix(in oklch, var(--color-red), var(--color-purple))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -128,7 +128,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-purple-red-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-purple), var(--color-red))
+    color-mix(in oklch, var(--color-purple), var(--color-red))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -139,7 +139,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-red-pink-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-red), var(--color-pink))
+    color-mix(in oklch, var(--color-red), var(--color-pink))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -150,7 +150,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-pink-red-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-pink), var(--color-red))
+    color-mix(in oklch, var(--color-pink), var(--color-red))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -161,7 +161,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-orange-yellow-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-orange), var(--color-yellow))
+    color-mix(in oklch, var(--color-orange), var(--color-yellow))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -172,7 +172,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-yellow-orange-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-yellow), var(--color-orange))
+    color-mix(in oklch, var(--color-yellow), var(--color-orange))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -183,7 +183,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-orange-green-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-orange), var(--color-green))
+    color-mix(in oklch, var(--color-orange), var(--color-green))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -194,7 +194,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-green-orange-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-green), var(--color-orange))
+    color-mix(in oklch, var(--color-green), var(--color-orange))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -205,7 +205,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-orange-cyan-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-orange), var(--color-cyan))
+    color-mix(in oklch, var(--color-orange), var(--color-cyan))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -216,7 +216,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-cyan-orange-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-cyan), var(--color-orange))
+    color-mix(in oklch, var(--color-cyan), var(--color-orange))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -227,7 +227,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-orange-blue-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-orange), var(--color-blue))
+    color-mix(in oklch, var(--color-orange), var(--color-blue))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -238,7 +238,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-blue-orange-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-blue), var(--color-orange))
+    color-mix(in oklch, var(--color-blue), var(--color-orange))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -249,7 +249,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-orange-purple-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-orange), var(--color-purple))
+    color-mix(in oklch, var(--color-orange), var(--color-purple))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -260,7 +260,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-purple-orange-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-purple), var(--color-orange))
+    color-mix(in oklch, var(--color-purple), var(--color-orange))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -271,7 +271,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-orange-pink-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-orange), var(--color-pink))
+    color-mix(in oklch, var(--color-orange), var(--color-pink))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -282,7 +282,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-pink-orange-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-pink), var(--color-orange))
+    color-mix(in oklch, var(--color-pink), var(--color-orange))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -293,7 +293,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-yellow-green-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-yellow), var(--color-green))
+    color-mix(in oklch, var(--color-yellow), var(--color-green))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -304,7 +304,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-green-yellow-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-green), var(--color-yellow))
+    color-mix(in oklch, var(--color-green), var(--color-yellow))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -315,7 +315,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-yellow-cyan-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-yellow), var(--color-cyan))
+    color-mix(in oklch, var(--color-yellow), var(--color-cyan))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -326,7 +326,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-cyan-yellow-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-cyan), var(--color-yellow))
+    color-mix(in oklch, var(--color-cyan), var(--color-yellow))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -337,7 +337,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-yellow-blue-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-yellow), var(--color-blue))
+    color-mix(in oklch, var(--color-yellow), var(--color-blue))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -348,7 +348,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-blue-yellow-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-blue), var(--color-yellow))
+    color-mix(in oklch, var(--color-blue), var(--color-yellow))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -359,7 +359,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-yellow-purple-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-yellow), var(--color-purple))
+    color-mix(in oklch, var(--color-yellow), var(--color-purple))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -370,7 +370,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-purple-yellow-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-purple), var(--color-yellow))
+    color-mix(in oklch, var(--color-purple), var(--color-yellow))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -381,7 +381,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-yellow-pink-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-yellow), var(--color-pink))
+    color-mix(in oklch, var(--color-yellow), var(--color-pink))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -392,7 +392,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-pink-yellow-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-pink), var(--color-yellow))
+    color-mix(in oklch, var(--color-pink), var(--color-yellow))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -403,7 +403,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-green-cyan-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-green), var(--color-cyan))
+    color-mix(in oklch, var(--color-green), var(--color-cyan))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -414,7 +414,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-cyan-green-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-cyan), var(--color-green))
+    color-mix(in oklch, var(--color-cyan), var(--color-green))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -425,7 +425,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-green-blue-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-green), var(--color-blue))
+    color-mix(in oklch, var(--color-green), var(--color-blue))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -436,7 +436,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-blue-green-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-blue), var(--color-green))
+    color-mix(in oklch, var(--color-blue), var(--color-green))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -447,7 +447,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-green-purple-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-green), var(--color-purple))
+    color-mix(in oklch, var(--color-green), var(--color-purple))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -458,7 +458,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-purple-green-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-purple), var(--color-green))
+    color-mix(in oklch, var(--color-purple), var(--color-green))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -469,7 +469,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-green-pink-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-green), var(--color-pink))
+    color-mix(in oklch, var(--color-green), var(--color-pink))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -480,7 +480,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-pink-green-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-pink), var(--color-green))
+    color-mix(in oklch, var(--color-pink), var(--color-green))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -491,7 +491,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-cyan-blue-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-cyan), var(--color-blue))
+    color-mix(in oklch, var(--color-cyan), var(--color-blue))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -502,7 +502,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-blue-cyan-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-blue), var(--color-cyan))
+    color-mix(in oklch, var(--color-blue), var(--color-cyan))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -513,7 +513,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-cyan-purple-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-cyan), var(--color-purple))
+    color-mix(in oklch, var(--color-cyan), var(--color-purple))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -524,7 +524,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-purple-cyan-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-purple), var(--color-cyan))
+    color-mix(in oklch, var(--color-purple), var(--color-cyan))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -535,7 +535,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-cyan-pink-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-cyan), var(--color-pink))
+    color-mix(in oklch, var(--color-cyan), var(--color-pink))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -546,7 +546,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-pink-cyan-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-pink), var(--color-cyan))
+    color-mix(in oklch, var(--color-pink), var(--color-cyan))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -557,7 +557,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-blue-purple-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-blue), var(--color-purple))
+    color-mix(in oklch, var(--color-blue), var(--color-purple))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -568,7 +568,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-purple-blue-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-purple), var(--color-blue))
+    color-mix(in oklch, var(--color-purple), var(--color-blue))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -579,7 +579,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-blue-pink-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-blue), var(--color-pink))
+    color-mix(in oklch, var(--color-blue), var(--color-pink))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -590,7 +590,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-pink-blue-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-pink), var(--color-blue))
+    color-mix(in oklch, var(--color-pink), var(--color-blue))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -601,7 +601,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-purple-pink-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-purple), var(--color-pink))
+    color-mix(in oklch, var(--color-purple), var(--color-pink))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );
@@ -612,7 +612,7 @@ body.flexcyon-ext-colors-enabled {
   );
   --color-pink-purple-mix-bg: color-mix(
     in oklch,
-    color-mix(in hsl, var(--color-pink), var(--color-purple))
+    color-mix(in oklch, var(--color-pink), var(--color-purple))
       var(--flexcyon-callout-bg-opacity),
     transparent
   );

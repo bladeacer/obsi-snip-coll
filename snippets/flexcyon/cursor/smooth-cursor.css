@@ -1,4 +1,9 @@
+body.flexcyon-enable-smooth-cursor {
+  --flexcyon-cursor-duration: 42.5ms;
+  --flexcyon-cursor-timing-fn: ease-in;
+  --flexcyon-cursor-min-width: unset;
+}
 body.flexcyon-enable-smooth-cursor .cm-cursor-primary {
-  transition: all var(--flexcyon-cursor-duration) var(--flexcyon-cursor-timing-fn);
-  min-width: var(--flexcyon-cursor-min-width);
+  min-inline-size: var(--flexcyon-cursor-min-width);
+  transition: transform var(--flexcyon-cursor-duration) var(--flexcyon-cursor-timing-fn);
 }

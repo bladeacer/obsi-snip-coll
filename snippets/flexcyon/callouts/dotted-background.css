@@ -1,22 +1,18 @@
 body.flexcyon-editor-dots .canvas-background,
 body.flexcyon-editor-dots .kanban-plugin div,
-div.callout[data-callout*="bg-dots"] .callout-content,
-div.callout[data-callout-metadata*="bg-dots"] .callout-content,
+div.callout[data-callout*=bg-dots] .callout-content,
+div.callout[data-callout-metadata*=bg-dots] .callout-content,
 .editor-dots,
-body.flexcyon-editor-dots .view-content [class*="markdown-"] {
-  background-image: radial-gradient(
-    var(--flexcyon-editor-bg-color) var(--flexcyon-editor-dot-size),
-    transparent 1px
-  );
+body.flexcyon-editor-dots .view-content [class*=markdown-] {
+  background-image: radial-gradient(var(--flexcyon-editor-bg-color) var(--flexcyon-editor-dot-size), transparent 1px);
   background-repeat: repeat;
-  background-size: var(--flexcyon-editor-bg-width)
-    var(--flexcyon-editor-bg-width);
+  background-size: var(--flexcyon-editor-bg-width) var(--flexcyon-editor-bg-width);
 }
 body.flexcyon-editor-dots .canvas-background *,
 body.flexcyon-editor-dots .kanban-plugin div *,
-div.callout[data-callout*="bg-dots"] .callout-content *,
-div.callout[data-callout-metadata*="bg-dots"] .callout-content *,
+div.callout[data-callout*=bg-dots] .callout-content *,
+div.callout[data-callout-metadata*=bg-dots] .callout-content *,
 .editor-dots *,
-body.flexcyon-editor-dots .view-content [class*="markdown-"] * {
+body.flexcyon-editor-dots .view-content [class*=markdown-] * {
   background-image: none;
 }

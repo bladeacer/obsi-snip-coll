@@ -65,31 +65,31 @@ body.flexcyon-flex-max-mode .reveal .pause-overlay::before,
 body.flexcyon-flex-max-mode div.empty-state-container::before,
 body.flexcyon-ascii-enable .reveal .pause-overlay::before,
 body.flexcyon-ascii-enable div.empty-state-container::before {
+  display: inline;
   font-family: var(--flexcyon-new-tab-font-group);
-  content: var(--flexcyon-ascii-art);
+  font-size: min(5vw - 3.25px, var(--flexcyon-ascii-max-font-size));
   font-weight: bold;
+  line-height: var(--flexcyon-ascii-line-height);
+  text-align: var(--flexcyon-ascii-alignment);
+  white-space: pre;
+  content: var(--flexcyon-ascii-art);
   background: var(--flexcyon-new-tab-bg-wrapper);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: var(--flexcyon-ascii-line-height);
-  white-space: pre;
-  text-align: var(--flexcyon-ascii-alignment);
-  display: inline;
-  font-size: min(5vw - 3.25px, var(--flexcyon-ascii-max-font-size));
 }
 body.flexcyon-flex-max-mode .reveal .pause-overlay::before,
 body.flexcyon-ascii-enable .reveal .pause-overlay::before {
   position: absolute;
-  line-height: calc(var(--flexcyon-ascii-line-height) + 0.25);
-  margin: auto;
+  inset: 0 0 40px 36px;
   max-inline-size: max-content;
   max-block-size: max-content;
-  inset: 0 0 40px 36px;
+  margin: auto;
+  line-height: calc(var(--flexcyon-ascii-line-height) + 0.25);
 }
 
 body.is-mobile.flexcyon-flex-max-mode .workspace-leaf > div > div > div.empty-state > div.empty-state-container::before,
 body.is-mobile.flexcyon-ascii-enable .workspace-leaf > div > div > div.empty-state > div.empty-state-container::before {
-  font-size: min(3.5vw - 3px, var(--flexcyon-ascii-max-font-size));
   margin-block-end: 1rem;
+  font-size: min(3.5vw - 3px, var(--flexcyon-ascii-max-font-size));
   line-height: 0.8;
 }

@@ -1,55 +1,55 @@
-.callout[data-callout*="title-smaller"] .callout-title,
-.callout[data-callout-metadata*="title-smaller"] .callout-title,
-.callout[data-callout*="all-smaller"] .callout-title,
-.callout[data-callout-metadata*="all-smaller"] .callout-title {
+.callout[data-callout*=title-smaller] .callout-title,
+.callout[data-callout-metadata*=title-smaller] .callout-title,
+.callout[data-callout*=all-smaller] .callout-title,
+.callout[data-callout-metadata*=all-smaller] .callout-title {
   font-size: var(--font-ui-smaller);
 }
 
-.callout[data-callout*="content-smaller"] .callout-content,
-.callout[data-callout-metadata*="content-smaller"] .callout-content,
-.callout[data-callout*="all-smaller"] .callout-content,
-.callout[data-callout-metadata*="all-smaller"] .callout-content {
+.callout[data-callout*=content-smaller] .callout-content,
+.callout[data-callout-metadata*=content-smaller] .callout-content,
+.callout[data-callout*=all-smaller] .callout-content,
+.callout[data-callout-metadata*=all-smaller] .callout-content {
   font-size: var(--font-ui-smaller);
 }
 
-.callout[data-callout*="title-small"] .callout-title,
-.callout[data-callout-metadata*="title-small"] .callout-title,
-.callout[data-callout*="all-small"] .callout-title,
-.callout[data-callout-metadata*="all-small"] .callout-title {
+.callout[data-callout*=title-small] .callout-title,
+.callout[data-callout-metadata*=title-small] .callout-title,
+.callout[data-callout*=all-small] .callout-title,
+.callout[data-callout-metadata*=all-small] .callout-title {
   font-size: var(--font-ui-small);
 }
 
-.callout[data-callout*="content-small"] .callout-content,
-.callout[data-callout-metadata*="content-small"] .callout-content,
-.callout[data-callout*="all-small"] .callout-content,
-.callout[data-callout-metadata*="all-small"] .callout-content {
+.callout[data-callout*=content-small] .callout-content,
+.callout[data-callout-metadata*=content-small] .callout-content,
+.callout[data-callout*=all-small] .callout-content,
+.callout[data-callout-metadata*=all-small] .callout-content {
   font-size: var(--font-ui-small);
 }
 
-.callout[data-callout*="title-medium"] .callout-title,
-.callout[data-callout-metadata*="title-medium"] .callout-title,
-.callout[data-callout*="all-medium"] .callout-title,
-.callout[data-callout-metadata*="all-medium"] .callout-title {
+.callout[data-callout*=title-medium] .callout-title,
+.callout[data-callout-metadata*=title-medium] .callout-title,
+.callout[data-callout*=all-medium] .callout-title,
+.callout[data-callout-metadata*=all-medium] .callout-title {
   font-size: var(--font-ui-medium);
 }
 
-.callout[data-callout*="content-medium"] .callout-content,
-.callout[data-callout-metadata*="content-medium"] .callout-content,
-.callout[data-callout*="all-medium"] .callout-content,
-.callout[data-callout-metadata*="all-medium"] .callout-content {
+.callout[data-callout*=content-medium] .callout-content,
+.callout[data-callout-metadata*=content-medium] .callout-content,
+.callout[data-callout*=all-medium] .callout-content,
+.callout[data-callout-metadata*=all-medium] .callout-content {
   font-size: var(--font-ui-medium);
 }
 
-.callout[data-callout*="title-large"] .callout-title,
-.callout[data-callout-metadata*="title-large"] .callout-title,
-.callout[data-callout*="all-large"] .callout-title,
-.callout[data-callout-metadata*="all-large"] .callout-title {
+.callout[data-callout*=title-large] .callout-title,
+.callout[data-callout-metadata*=title-large] .callout-title,
+.callout[data-callout*=all-large] .callout-title,
+.callout[data-callout-metadata*=all-large] .callout-title {
   font-size: var(--font-ui-large);
 }
 
-.callout[data-callout*="content-large"] .callout-content,
-.callout[data-callout-metadata*="content-large"] .callout-content,
-.callout[data-callout*="all-large"] .callout-content,
-.callout[data-callout-metadata*="all-large"] .callout-content {
+.callout[data-callout*=content-large] .callout-content,
+.callout[data-callout-metadata*=content-large] .callout-content,
+.callout[data-callout*=all-large] .callout-content,
+.callout[data-callout-metadata*=all-large] .callout-content {
   font-size: var(--font-ui-large);
 }

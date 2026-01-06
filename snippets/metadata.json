@@ -102,7 +102,11 @@
     },
     "smooth-cursor": {
       "sub_directory": "cursor",
-      "description": "Configures smooth cursor, supports built in vim mode."
+      "description": "Configures smooth cursor in built in vim mode."
+    },
+    "cursor-type": {
+      "sub_directory": "cursor",
+      "description": "Configures default cursor type when it is not specified by the app."
     },
     "extended-color": {
       "sub_directory": "colors",

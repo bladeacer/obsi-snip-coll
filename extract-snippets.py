@@ -423,4 +423,3 @@ def extract_and_save_snippets():
 
 if __name__ == "__main__":
     extract_and_save_snippets()
-

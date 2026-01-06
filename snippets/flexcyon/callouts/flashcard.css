@@ -2,14 +2,14 @@ div.callout[data-callout*=flashcard],
 div.callout[data-callout-metadata*=flashcard] {
   inline-size: var(--flexcyon-callouts-flashcard-width);
   block-size: var(--flexcyon-callouts-flashcard-height);
-  perspective: 1000px;
   transform-style: preserve-3d;
-  transition: all var(--flexcyon-callout-flashcard-animation-duration) ease-in-out;
+  perspective: 1000px;
+  transition: transform var(--flexcyon-callout-flashcard-animation-duration) ease-in-out;
 }
 div.callout[data-callout*=flashcard] .callout-content,
 div.callout[data-callout-metadata*=flashcard] .callout-content {
-  transform: rotateY(180deg);
   opacity: 0;
+  transform: rotateY(180deg);
 }
 div.callout[data-callout*=flashcard] .callout-title,
 div.callout[data-callout-metadata*=flashcard] .callout-title {

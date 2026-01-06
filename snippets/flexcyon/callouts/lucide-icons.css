@@ -1,7 +1,7 @@
-.callout[data-callout*="lucide"] {
+.callout[data-callout*=lucide] {
   --callout-icon: attr(data-callout);
 }
 
-.callout[data-callout-metadata*="lucide"] {
+.callout[data-callout-metadata*=lucide] {
   --callout-icon: attr(data-callout-metadata);
 }

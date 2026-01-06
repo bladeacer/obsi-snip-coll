@@ -45,6 +45,9 @@ Follow the supported .env formats to configure target sources:
 - [Single source](.env.dev)
 - [Multiple sources](.env.dev-2)
 
+Currently only supports targeting individual CSS files. A PR is welcome for
+folder support.
+
 ```sh
 cp .env.dev-2 .env
 vim .env
@@ -88,12 +91,12 @@ identify and manage snippets:
 
 ### Why I made the script
 A standardised, theme and vault agnostic means of extracting CSS snippets into my
-CSS snippet collection.
+CSS snippet collection. I find it useful for extracting and managing snippets from various sources.
 
 ## Troubleshooting
 > Error message, crash when metadata after exiting and re-entering metadata for new snippets.
 
-Remove `metadata.json`. When you run the script again, it will generate an
+Remove `snippets/index.json`. When you run the script again, it will generate an
 updated version in its place.
 
 ### Contributing

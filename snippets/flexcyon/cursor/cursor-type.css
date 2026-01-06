@@ -1,0 +1,4 @@
+body {
+  --flexcyon-cursor-type: auto;
+  cursor: var(--flexcyon-cursor-type);
+}
