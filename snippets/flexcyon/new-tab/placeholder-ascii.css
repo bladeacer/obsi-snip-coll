@@ -1,0 +1,35 @@
+/* 
+Placeholder, you can find your own ASCII art online or use Figlet.
+
+Tips:
+
+1. Spaces after ASCII characters in the line determine alignment
+2. Reducing spacing after the end of each line
+3. Escape backslashes with \\
+
+e.g.
+
+This will render more to the left.
+
+```
+       _                _           _     _           \a\
+```
+
+This will render more to the right.
+```
+       _                _           _     _         \a\
+```
+
+Credits: https://www.figlet.org/
+*/
+body.theme-light {
+  --flexcyon-new-tab-bg-wrapper: linear-gradient(to right, var(--color-green), var(--color-base-40), var(--text-faint));
+
+  --flexcyon-ascii-art: " \a\
+       _                _           _     _           \a\
+ _ __ | | __ _  ___ ___| |__   ___ | | __| | ___ _ __ \a\
+| '_ \\| |/ _` |/ __/ _ \\ '_ \\ / _ \\| |/ _` |/ _ \\ '__|\a\
+| |_) | | (_| | (_|  __/ | | | (_) | | (_| |  __/ |   \a\
+| .__/|_|\\__,_|\\___\\___|_| |_|\\___/|_|\\__,_|\\___|_|   \a\
+|_|                                                   \a\a";
+}

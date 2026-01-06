@@ -44,6 +44,10 @@
       "sub_directory": "new-tab",
       "description": "Set customisable ASCII art in new tabs."
     },
+    "placeholder-ascii": {
+      "sub_directory": "new-tab",
+      "description": "Example ASCII art in new tabs. ASCII art generated via FIGlet (Standard Font). This output is released under the same license as this project.\n\nCredits: https://www.figlet.org"
+    },
     "number-tabs": {
       "sub_directory": "tabs",
       "description": "Numbers tabs within the same tab group. Works with Stacked Tabs as well."
