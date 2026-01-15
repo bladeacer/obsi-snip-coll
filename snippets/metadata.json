@@ -143,6 +143,10 @@
     "improved-slides": {
       "sub_directory": "plugins",
       "description": "Improves the appearnce of Core Slides plugin with better defaults."
+    },
+    "mobile-fixes": {
+      "sub_directory": "tabs",
+      "description": "Revert 1.11 sidebar navigation UI to pre 1.11 style."
     }
   }
 }
