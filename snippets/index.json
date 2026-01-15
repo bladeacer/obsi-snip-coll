@@ -1,4 +1,5 @@
 {
+  "flexcyon_theme.css_10045_10087": "snippets/flexcyon/tabs/mobile-fixes.css",
   "flexcyon_theme.css_53_672": "snippets/flexcyon/colors/extended-color.css",
   "flexcyon_theme.css_2327_2343": "snippets/flexcyon/callouts/grid-background.css",
   "flexcyon_theme.css_2351_2369": "snippets/flexcyon/callouts/dotted-background.css",
@@ -33,7 +34,7 @@
   "flexcyon_theme.css_9564_9570": "snippets/flexcyon/accessibility/filters.css",
   "flexcyon_theme.css_9570_9574": "snippets/flexcyon/cursor/cursor-type.css",
   "flexcyon_theme.css_9574_9583": "snippets/flexcyon/cursor/smooth-cursor.css",
-  "flexcyon_theme.css_10045_10087": "snippets/flexcyon/tabs/mobile-fixes.css",
-  "flexcyon_theme.css_10969_11832": "snippets/flexcyon/plugins/improved-slides.css",
+  "flexcyon_theme.css_10045_10091": "snippets/flexcyon/tabs/mobile-fixes.css",
+  "flexcyon_theme.css_10973_11836": "snippets/flexcyon/plugins/improved-slides.css",
   "flexcyon_placeholder-ascii.css_0_11": "snippets/flexcyon/new-tab/placeholder-ascii.css"
 }
