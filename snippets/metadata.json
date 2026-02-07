@@ -147,6 +147,10 @@
     "mobile-fixes": {
       "sub_directory": "tabs",
       "description": "Revert 1.11 sidebar navigation UI to pre 1.11 style."
+    },
+    "file-exts": {
+      "sub_directory": "files",
+      "description": "Add file extensions to the file explorer."
     }
   }
 }

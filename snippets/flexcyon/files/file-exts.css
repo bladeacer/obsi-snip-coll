@@ -1,0 +1,31 @@
+body.flexcyon-flex-max-mode .nav-files-container > div > div div[data-path$=".md"] > div.nav-file-tag,
+body.flexcyon-flex-max-mode .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"] > div.nav-file-tag,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-files-container > div > div div[data-path$=".md"] > div.nav-file-tag,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"] > div.nav-file-tag {
+  display: none;
+}
+body.flexcyon-flex-max-mode .nav-files-container > div > div div[data-path$=".md"]::after,
+body.flexcyon-flex-max-mode .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"]::after,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-files-container > div > div div[data-path$=".md"]::after,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"]::after {
+  content: ".md";
+  opacity: var(--dimmed);
+}
+body.flexcyon-flex-max-mode .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag,
+body.flexcyon-flex-max-mode .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag {
+  padding: unset;
+  margin: unset;
+  font-size: var(--flexcyon-exp-dimmed-nav-size);
+  font-weight: unset;
+  color: var(--text-muted);
+  text-transform: lowercase;
+  opacity: var(--dimmed);
+}
+body.flexcyon-flex-max-mode .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before,
+body.flexcyon-flex-max-mode .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before {
+  content: ".";
+}
