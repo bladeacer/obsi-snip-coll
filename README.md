@@ -41,6 +41,9 @@ Make use of the [extraction script](extract-snippets.py).
 
 Ensure you have Python installed (check with `which python`, [install it on Windows](https://www.python.org/downloads/))
 
+You do not need a virtual environment for the script, it calls
+Python's standard library only.
+
 Follow the supported .env formats to configure target sources:
 - [Single source](.env.dev)
 - [Multiple sources](.env.dev-2)
