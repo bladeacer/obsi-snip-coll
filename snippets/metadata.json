@@ -151,6 +151,10 @@
     "file-exts": {
       "sub_directory": "files",
       "description": "Add file extensions to the file explorer."
+    },
+    "canvas-oklch-fix": {
+      "sub_directory": "plugins",
+      "description": "Fixes hardcoded rgb declarations in app.css for Canvas."
     }
   }
 }
