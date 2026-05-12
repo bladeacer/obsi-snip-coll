@@ -1,20 +1,14 @@
-body.flexcyon-flex-max-mode .nav-files-container > div > div div[data-path$=".md"] > div.nav-file-tag,
-body.flexcyon-flex-max-mode .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"] > div.nav-file-tag,
-body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-files-container > div > div div[data-path$=".md"] > div.nav-file-tag,
-body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"] > div.nav-file-tag {
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) :not(.novel-word-count--active) .nav-files-container > div > div div[data-path$=".md"] > div.nav-file-tag,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"] > div.nav-file-tag {
   display: none;
 }
-body.flexcyon-flex-max-mode .nav-files-container > div > div div[data-path$=".md"]::after,
-body.flexcyon-flex-max-mode .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"]::after,
-body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-files-container > div > div div[data-path$=".md"]::after,
-body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"]::after {
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) :not(.novel-word-count--active) .nav-files-container > div > div div[data-path$=".md"]::after,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) .nav-folder:not(.is-collapsed) > div > div div[data-path$=".md"]::after {
   content: ".md";
   opacity: var(--dimmed);
 }
-body.flexcyon-flex-max-mode .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag,
-body.flexcyon-flex-max-mode .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag,
-body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag,
-body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag {
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) :not(.novel-word-count--active) .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag {
   padding: unset;
   margin: unset;
   font-size: var(--flexcyon-exp-dimmed-nav-size);
@@ -23,9 +17,10 @@ body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) >
   text-transform: lowercase;
   opacity: var(--dimmed);
 }
-body.flexcyon-flex-max-mode .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before,
-body.flexcyon-flex-max-mode .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before,
-body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before,
-body.flexcyon-file-exp-dimmed-file-exts-enabled .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before {
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) :not(.novel-word-count--active) .nav-files-container > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before,
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) .nav-folder:not(.is-collapsed) > div > div div:not([data-path$=".md"]) > div.nav-file-tag::before {
   content: ".";
+}
+body.flexcyon-file-exp-dimmed-file-exts-enabled .workspace-split:not(.is-sidedock-collapsed) .novel-word-count--active .nav-files-container div div div[data-path$=".md"].nav-file-title::after {
+  content: ".md  " attr(data-novel-word-count-plugin);
 }

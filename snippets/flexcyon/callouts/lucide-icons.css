@@ -1,3 +1,4 @@
+/* Note: Requires at least Obsidian 1.9.12 */
 .callout[data-callout*=lucide] {
   --callout-icon: attr(data-callout);
 }

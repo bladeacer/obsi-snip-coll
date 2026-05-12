@@ -155,6 +155,10 @@
     "canvas-oklch-fix": {
       "sub_directory": "plugins",
       "description": "Fixes hardcoded rgb declarations in app.css for Canvas."
+    },
+    "wrap-long-filenames": {
+      "sub_directory": "uncategorized",
+      "description": ""
     }
   }
 }

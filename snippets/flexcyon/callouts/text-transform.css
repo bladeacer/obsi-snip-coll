@@ -58,6 +58,36 @@ div.callout[data-callout-metadata*=lowercase-content] div.callout-content * pre[
   text-transform: lowercase;
 }
 
+div.callout[data-callout*=capitalize-all] div.callout-title .callout-title-inner,
+div.callout[data-callout-metadata*=capitalize-all] div.callout-title .callout-title-inner,
+div.callout[data-callout*=capitalize-title] div.callout-title .callout-title-inner,
+div.callout[data-callout-metadata*=capitalize-title] div.callout-title .callout-title-inner {
+  text-transform: capitalize;
+}
+
+div.callout[data-callout*=capitalize-all] div.callout-content *,
+div.callout[data-callout-metadata*=capitalize-all] div.callout-content *,
+div.callout[data-callout*=capitalize-content] div.callout-content *,
+div.callout[data-callout-metadata*=capitalize-content] div.callout-content * {
+  text-transform: capitalize;
+}
+div.callout[data-callout*=capitalize-all] div.callout-content * *,
+div.callout[data-callout-metadata*=capitalize-all] div.callout-content * *,
+div.callout[data-callout*=capitalize-content] div.callout-content * *,
+div.callout[data-callout-metadata*=capitalize-content] div.callout-content * * {
+  text-transform: capitalize;
+}
+div.callout[data-callout*=capitalize-all] div.callout-content * code[class*=language-],
+div.callout[data-callout*=capitalize-all] div.callout-content * pre[class*=language-],
+div.callout[data-callout-metadata*=capitalize-all] div.callout-content * code[class*=language-],
+div.callout[data-callout-metadata*=capitalize-all] div.callout-content * pre[class*=language-],
+div.callout[data-callout*=capitalize-content] div.callout-content * code[class*=language-],
+div.callout[data-callout*=capitalize-content] div.callout-content * pre[class*=language-],
+div.callout[data-callout-metadata*=capitalize-content] div.callout-content * code[class*=language-],
+div.callout[data-callout-metadata*=capitalize-content] div.callout-content * pre[class*=language-] {
+  text-transform: capitalize;
+}
+
 div.callout[data-callout*=caps-all] div.callout-title .callout-title-inner,
 div.callout[data-callout-metadata*=caps-all] div.callout-title .callout-title-inner,
 div.callout[data-callout*=caps-title] div.callout-title .callout-title-inner,

@@ -1,0 +1,5 @@
+body.flexcyon-wrap-long-filenames .tree-item-inner {
+  overflow: visible;
+  text-overflow: clip;
+  white-space: collapse;
+}
