@@ -157,8 +157,8 @@
       "description": "Fixes hardcoded rgb declarations in app.css for Canvas."
     },
     "wrap-long-filenames": {
-      "sub_directory": "uncategorized",
-      "description": ""
+      "sub_directory": "editor",
+      "description": "Wraps long filenames in the file explorer."
     }
   }
 }

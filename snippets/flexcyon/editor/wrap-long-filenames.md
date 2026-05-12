@@ -6,7 +6,7 @@ license: MIT
 
 # Wrap Long Filenames
 
-
+Wraps long filenames in the file explorer.
 
 This snippet was automatically extracted from the `flexcyon` theme.
 
