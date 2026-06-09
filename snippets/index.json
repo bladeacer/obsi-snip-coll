@@ -1,11 +1,12 @@
 {
   "flexcyon_theme.css_3867_3908": "snippets/flexcyon/callouts/tategaki.css",
-  "flexcyon_theme.css_10076_10122": "snippets/flexcyon/tabs/mobile-fixes.css",
   "flexcyon_theme.css_11008_11871": "snippets/flexcyon/plugins/improved-slides.css",
   "flexcyon_theme.css_3839_4039": "snippets/flexcyon/callouts/color.css",
   "flexcyon_theme.css_3634_3652": "snippets/flexcyon/callouts/no-title.css",
   "flexcyon_theme.css_9135_9141": "snippets/flexcyon/accessibility/filters.css",
   "flexcyon_theme.css_9145_9154": "snippets/flexcyon/cursor/smooth-cursor.css",
+  "flexcyon_theme.css_9966_10013": "snippets/flexcyon/tabs/mobile-fixes.css",
+  "flexcyon_theme.css_11061_11163": "snippets/flexcyon/plugins/canvas-oklch-fix.css",
   "flexcyon_theme.css_143_650": "snippets/flexcyon/colors/extended-color.css",
   "flexcyon_theme.css_2690_2706": "snippets/flexcyon/callouts/grid-background.css",
   "flexcyon_theme.css_2714_2732": "snippets/flexcyon/callouts/dotted-background.css",
@@ -37,7 +38,7 @@
   "flexcyon_theme.css_9040_9131": "snippets/flexcyon/new-tab/ascii-art.css",
   "flexcyon_theme.css_9212_9233": "snippets/flexcyon/tabs/number-tabs.css",
   "flexcyon_theme.css_9549_9553": "snippets/flexcyon/cursor/cursor-type.css",
-  "flexcyon_theme.css_9966_10013": "snippets/flexcyon/tabs/mobile-fixes.css",
-  "flexcyon_theme.css_11061_11163": "snippets/flexcyon/plugins/canvas-oklch-fix.css",
+  "flexcyon_theme.css_9959_10006": "snippets/flexcyon/tabs/mobile-fixes.css",
+  "flexcyon_theme.css_11055_11160": "snippets/flexcyon/plugins/canvas-oklch-fix.css",
   "flexcyon_placeholder-ascii.css_0_11": "snippets/flexcyon/new-tab/placeholder-ascii.css"
 }

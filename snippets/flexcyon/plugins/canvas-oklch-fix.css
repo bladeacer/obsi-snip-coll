@@ -1,6 +1,6 @@
 body.theme-dark,
 body.theme-light {
-  --canvas-color: var(--text-normal);
+  --canvas-color: var(--text-normal) !important;
   --canvas-color-1: var(--color-red);
   --canvas-color-2: var(--color-orange);
   --canvas-color-3: var(--color-yellow);
@@ -42,6 +42,9 @@ body .workspace-leaf.mod-active .workspace-leaf-content[data-type=canvas] .canva
 }
 body .workspace-leaf.mod-active .workspace-leaf-content[data-type=canvas] .canvas-edges path.canvas-display-path {
   stroke: var(--canvas-color);
+}
+body .workspace-leaf.mod-active .workspace-leaf-content[data-type=canvas] .canvas-edges g.is-themed.mod-canvas-color-custom {
+  --canvas-color: var(--text-normal) !important;
 }
 body .workspace-leaf.mod-active .workspace-leaf-content[data-type=canvas] .canvas-edges polygon.canvas-path-end {
   fill: var(--canvas-color);
