@@ -1,0 +1,4 @@
+.typewriter-mode .workspace-leaf.mod-active .workspace-leaf-content[data-type=markdown] .cm-line:not(.cm-active, .HyperMD-codeblock),
+body.flexcyon-typewriter-mode .workspace-leaf.mod-active .workspace-leaf-content[data-type=markdown] .cm-line:not(.cm-active, .HyperMD-codeblock) {
+  opacity: var(--flexcyon-typewriter-mode-opacity);
+}

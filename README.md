@@ -64,8 +64,19 @@ chmod +x ./extract-snippets.py
 
 Run the script.
 ```sh
-./extract-snippets.py
+./extract-snippets.py          # interactive mode
+./extract-snippets.py -y       # auto-accept weak matches
+./extract-snippets.py -n       # non-interactive, use defaults
+./extract-snippets.py -ny      # fully automatic mode
+./extract-snippets.py --validate  # check metadata.json consistency
 ```
+
+CLI options:
+- `-h`, `--help` - show usage with examples
+- `-y`, `--yes` - auto-accept weak matches without prompting
+- `-n`, `--non-interactive` - non-interactive mode, use defaults for all prompts (no stdin needed)
+- `--validate` - cross-check `metadata.json` entries against actual files and exit
+- `-e`, `--env ENV_PATH` - path to `.env` file (default: `./.env`)
 
 ### Metadata completions
 ```css
@@ -82,15 +93,20 @@ the metadata file it would load the descriptors for you. This means you should
 only need to enter descriptors once, or can edit the completion options
 [manually here](./snippets/metadata.json).
 
-> This also means you can define descriptors before you ever run the script if
-> you assign each snippet with their names and input their name when prompted
+Metadata is also consulted when an existing snippet is matched and updated -
+the description and subdirectory from `metadata.json` are used when
+regenerating the markdown file.
+
+> You can define descriptors before you ever run the script by assigning names
+> to each snippet and writing their metadata manually.
 
 ### How are my snippets checked?
 The script never relies on line numbers alone, it follows this hierarchy to
 identify and manage snippets:
-1. Minified CSS Content Match
-2. Line Count Match with Proximity Check
-3. Fallback and Prompting
+1. **Minified CSS Content Match** - compares minified (comments + whitespace removed) content
+2. **Exact Index Key Match** - matches by source name, file name, and filtered line range
+3. **Line Count + Proximity Match** - same line count within 30 lines auto-update; beyond 30 prompts or skipped depending on flags (`-y`, `-n`)
+4. **Fallback and Prompting** - no match found, interactive prompt for new entry
 
 ### Why I made the script
 A standardised, theme and vault agnostic means of extracting CSS snippets into my

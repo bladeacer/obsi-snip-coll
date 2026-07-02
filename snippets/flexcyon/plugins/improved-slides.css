@@ -53,13 +53,13 @@ body {
 }
 
 .reveal pre {
-  margin: var(--r-block-margin) 0.75px;
+  margin: var(--r-block-margin) 1px;
   font-size: var(--font-ui-medium);
 }
 
 .slides-close-btn svg.svg-icon {
-  inline-size: 28px;
-  block-size: 28px;
+  inline-size: 32px;
+  block-size: 32px;
 }
 
 .reveal .pause-overlay {
@@ -69,14 +69,14 @@ body {
 .reveal img,
 .reveal video,
 .reveal iframe {
-  padding: 0 0.75px;
-  padding-inline-end: 5px;
+  padding: 0 1px;
+  padding-inline-end: 4px;
 }
 
 .slides-container .backgrounds :nth-of-type(99n + 1).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 1";
@@ -85,7 +85,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 2).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 2";
@@ -94,7 +94,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 3).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 3";
@@ -103,7 +103,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 4).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 4";
@@ -112,7 +112,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 5).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 5";
@@ -121,7 +121,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 6).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 6";
@@ -130,7 +130,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 7).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 7";
@@ -139,7 +139,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 8).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 8";
@@ -148,7 +148,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 9).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 9";
@@ -157,7 +157,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 10).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 10";
@@ -166,7 +166,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 11).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 11";
@@ -175,7 +175,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 12).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 12";
@@ -184,7 +184,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 13).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 13";
@@ -193,7 +193,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 14).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 14";
@@ -202,7 +202,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 15).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 15";
@@ -211,7 +211,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 16).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 16";
@@ -220,7 +220,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 17).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 17";
@@ -229,7 +229,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 18).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 18";
@@ -238,7 +238,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 19).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 19";
@@ -247,7 +247,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 20).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 20";
@@ -256,7 +256,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 21).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 21";
@@ -265,7 +265,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 22).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 22";
@@ -274,7 +274,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 23).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 23";
@@ -283,7 +283,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 24).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 24";
@@ -292,7 +292,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 25).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 25";
@@ -301,7 +301,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 26).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 26";
@@ -310,7 +310,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 27).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 27";
@@ -319,7 +319,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 28).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 28";
@@ -328,7 +328,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 29).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 29";
@@ -337,7 +337,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 30).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 30";
@@ -346,7 +346,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 31).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 31";
@@ -355,7 +355,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 32).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 32";
@@ -364,7 +364,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 33).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 33";
@@ -373,7 +373,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 34).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 34";
@@ -382,7 +382,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 35).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 35";
@@ -391,7 +391,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 36).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 36";
@@ -400,7 +400,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 37).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 37";
@@ -409,7 +409,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 38).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 38";
@@ -418,7 +418,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 39).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 39";
@@ -427,7 +427,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 40).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 40";
@@ -436,7 +436,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 41).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 41";
@@ -445,7 +445,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 42).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 42";
@@ -454,7 +454,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 43).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 43";
@@ -463,7 +463,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 44).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 44";
@@ -472,7 +472,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 45).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 45";
@@ -481,7 +481,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 46).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 46";
@@ -490,7 +490,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 47).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 47";
@@ -499,7 +499,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 48).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 48";
@@ -508,7 +508,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 49).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 49";
@@ -517,7 +517,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 50).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 50";
@@ -526,7 +526,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 51).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 51";
@@ -535,7 +535,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 52).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 52";
@@ -544,7 +544,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 53).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 53";
@@ -553,7 +553,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 54).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 54";
@@ -562,7 +562,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 55).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 55";
@@ -571,7 +571,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 56).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 56";
@@ -580,7 +580,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 57).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 57";
@@ -589,7 +589,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 58).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 58";
@@ -598,7 +598,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 59).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 59";
@@ -607,7 +607,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 60).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 60";
@@ -616,7 +616,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 61).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 61";
@@ -625,7 +625,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 62).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 62";
@@ -634,7 +634,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 63).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 63";
@@ -643,7 +643,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 64).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 64";
@@ -652,7 +652,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 65).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 65";
@@ -661,7 +661,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 66).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 66";
@@ -670,7 +670,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 67).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 67";
@@ -679,7 +679,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 68).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 68";
@@ -688,7 +688,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 69).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 69";
@@ -697,7 +697,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 70).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 70";
@@ -706,7 +706,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 71).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 71";
@@ -715,7 +715,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 72).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 72";
@@ -724,7 +724,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 73).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 73";
@@ -733,7 +733,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 74).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 74";
@@ -742,7 +742,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 75).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 75";
@@ -751,7 +751,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 76).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 76";
@@ -760,7 +760,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 77).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 77";
@@ -769,7 +769,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 78).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 78";
@@ -778,7 +778,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 79).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 79";
@@ -787,7 +787,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 80).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 80";
@@ -796,7 +796,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 81).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 81";
@@ -805,7 +805,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 82).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 82";
@@ -814,7 +814,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 83).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 83";
@@ -823,7 +823,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 84).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 84";
@@ -832,7 +832,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 85).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 85";
@@ -841,7 +841,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 86).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 86";
@@ -850,7 +850,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 87).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 87";
@@ -859,7 +859,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 88).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 88";
@@ -868,7 +868,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 89).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 89";
@@ -877,7 +877,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 90).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 90";
@@ -886,7 +886,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 91).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 91";
@@ -895,7 +895,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 92).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 92";
@@ -904,7 +904,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 93).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 93";
@@ -913,7 +913,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 94).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 94";
@@ -922,7 +922,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 95).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 95";
@@ -931,7 +931,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 96).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 96";
@@ -940,7 +940,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 97).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 97";
@@ -949,7 +949,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 98).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 98";
@@ -958,7 +958,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 99).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 99";
@@ -967,7 +967,7 @@ body {
 .slides-container .backgrounds :nth-of-type(99n + 100).present .slide-background-content::before {
   position: absolute;
   inset-block-start: 8px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: var(--font-ui-medium);
   color: var(--text-normal);
   content: "Page 100";

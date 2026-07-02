@@ -1,41 +1,41 @@
-div.callout[data-callout*=tategaki] div.callout-content,
-div.callout[data-callout-metadata*=tategaki] div.callout-content {
+div.callout[data-callout*=tategaki] div.callout-content, div.callout[data-callout-metadata*=tategaki] div.callout-content {
   max-inline-size: 95%;
   padding-block: 2vh 1vh;
   margin: auto;
   overflow: scroll;
   overscroll-behavior: contain;
-  line-height: 1.667;
+  line-height: 1.61;
   text-indent: 1rem;
   letter-spacing: var(--font-ui-large);
   writing-mode: vertical-rl;
 }
-div.callout[data-callout*=tategaki] div.callout-content h1,
-div.callout[data-callout-metadata*=tategaki] div.callout-content h1 {
+div.callout[data-callout*=tategaki] div.callout-content h1, div.callout[data-callout-metadata*=tategaki] div.callout-content h1 {
+  margin-block-start: 0;
+  line-height: 1.61;
   letter-spacing: var(--h1-size);
 }
-div.callout[data-callout*=tategaki] div.callout-content h2,
-div.callout[data-callout-metadata*=tategaki] div.callout-content h2 {
+div.callout[data-callout*=tategaki] div.callout-content h2, div.callout[data-callout-metadata*=tategaki] div.callout-content h2 {
+  margin-block-start: 0;
+  line-height: 1.61;
   letter-spacing: var(--h2-size);
 }
-div.callout[data-callout*=tategaki] div.callout-content h3,
-div.callout[data-callout-metadata*=tategaki] div.callout-content h3 {
+div.callout[data-callout*=tategaki] div.callout-content h3, div.callout[data-callout-metadata*=tategaki] div.callout-content h3 {
+  margin-block-start: 0;
+  line-height: 1.61;
   letter-spacing: var(--h3-size);
 }
-div.callout[data-callout*=tategaki] div.callout-content h4,
-div.callout[data-callout-metadata*=tategaki] div.callout-content h4 {
+div.callout[data-callout*=tategaki] div.callout-content h4, div.callout[data-callout-metadata*=tategaki] div.callout-content h4 {
+  margin-block-start: 0;
+  line-height: 1.61;
   letter-spacing: var(--h4-size);
 }
-div.callout[data-callout*=tategaki] div.callout-content h5,
-div.callout[data-callout-metadata*=tategaki] div.callout-content h5 {
+div.callout[data-callout*=tategaki] div.callout-content h5, div.callout[data-callout-metadata*=tategaki] div.callout-content h5 {
+  margin-block-start: 0;
+  line-height: 1.61;
   letter-spacing: var(--h5-size);
 }
-div.callout[data-callout*=tategaki] div.callout-content h6,
-div.callout[data-callout-metadata*=tategaki] div.callout-content h6 {
-  letter-spacing: var(--h6-size);
-}
-div.callout[data-callout*=tategaki] div.callout-content :is(h1, h2, h3, h4, h5, h6),
-div.callout[data-callout-metadata*=tategaki] div.callout-content :is(h1, h2, h3, h4, h5, h6) {
+div.callout[data-callout*=tategaki] div.callout-content h6, div.callout[data-callout-metadata*=tategaki] div.callout-content h6 {
   margin-block-start: 0;
-  line-height: 1.667;
+  line-height: 1.61;
+  letter-spacing: var(--h6-size);
 }

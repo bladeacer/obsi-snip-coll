@@ -1,164 +1,168 @@
 {
   "flexcyon": {
-    "tategaki": {
-      "sub_directory": "callouts",
-      "description": "Applies Vertical Right-to-Left (RTL) to your callout content."
-    },
-    "vertical-ltr": {
-      "sub_directory": "callouts",
-      "description": "Applies Vertical Left-to-Right (LTR) to your callout content."
-    },
-    "no-icon": {
-      "sub_directory": "callouts",
-      "description": "Removes the callout icon."
-    },
-    "no-title": {
-      "sub_directory": "callouts",
-      "description": "Removes the callout title."
+    "ascii-art": {
+      "description": "Set customisable ASCII art in new tabs.",
+      "sub_directory": "new-tab"
     },
     "bg-transparent": {
-      "sub_directory": "callouts",
-      "description": "Makes the callout background transparent."
-    },
-    "color": {
-      "sub_directory": "callouts",
-      "description": "Specify the target colour for callout title, content or both."
-    },
-    "centre-text": {
-      "sub_directory": "callouts",
-      "description": "Centre the callout title text, the callout content text or both."
-    },
-    "text-direction": {
-      "sub_directory": "callouts",
-      "description": "Centre the callout title text, the callout content text or both."
-    },
-    "text-transform": {
-      "sub_directory": "callouts",
-      "description": "Set text transform options within callout title, content or both."
-    },
-    "extended-color-palette": {
-      "sub_directory": "callouts",
-      "description": "Set the extended colour of choice to callout title, content or both."
-    },
-    "ascii-art": {
-      "sub_directory": "new-tab",
-      "description": "Set customisable ASCII art in new tabs."
-    },
-    "placeholder-ascii": {
-      "sub_directory": "new-tab",
-      "description": "Example ASCII art in new tabs. ASCII art generated via FIGlet (Standard Font). This output is released under the same license as this project.\n\nCredits: https://www.figlet.org"
-    },
-    "number-tabs": {
-      "sub_directory": "tabs",
-      "description": "Numbers tabs within the same tab group. Works with Stacked Tabs as well."
-    },
-    "filters": {
-      "sub_directory": "accessibility",
-      "description": "Sets the global contrast, brightness and saturation throughout Obsidian."
-    },
-    "font-style": {
-      "sub_directory": "callouts",
-      "description": "Set the font style of the callout title, content or both."
-    },
-    "text-decoration": {
-      "sub_directory": "callouts",
-      "description": "Sets the text decoration of callout title, content or both."
-    },
-    "heading-title": {
-      "sub_directory": "callouts",
-      "description": "Sets the callout title to inherit the target heading's styles in the theme."
-    },
-    "font-weight": {
-      "sub_directory": "callouts",
-      "description": "Sets the specified font weight as the default for callout title, content or both."
-    },
-    "flashcard": {
-      "sub_directory": "callouts",
-      "description": "Sets the callout to flashcard style. Hover to see callout content."
-    },
-    "writing-mode": {
-      "sub_directory": "callouts",
-      "description": "Sets writing mode which adds text indentation in callouts."
-    },
-    "set-font": {
-      "sub_directory": "callouts",
-      "description": "Set the target font in callout title, content or both."
-    },
-    "lists": {
-      "sub_directory": "callouts",
-      "description": "Set the default ordered and unordered list marker styling in callouts."
-    },
-    "lucide-icons": {
-      "sub_directory": "callouts",
-      "description": "Sets the callout icon to a specified lucide icon value."
-    },
-    "grid-background": {
-      "sub_directory": "callouts",
-      "description": "Sets a grid background in your callouts or as a cssclass."
-    },
-    "dotted-background": {
-      "sub_directory": "callouts",
-      "description": "Sets a dotted background in your callouts or as a cssclass."
-    },
-    "rhombus-background": {
-      "sub_directory": "callouts",
-      "description": "Sets a rhombus background in your callouts or as a cssclass."
-    },
-    "smooth-cursor": {
-      "sub_directory": "cursor",
-      "description": "Configures smooth cursor in built in vim mode."
-    },
-    "cursor-type": {
-      "sub_directory": "cursor",
-      "description": "Configures default cursor type when it is not specified by the app."
-    },
-    "extended-color": {
-      "sub_directory": "colors",
-      "description": "CSS variable definitions for the extended color palette. Used in extended color callouts snippet."
-    },
-    "tui-callout": {
-      "sub_directory": "callouts",
-      "description": "Styles callouts to resemble TUI interfaces."
-    },
-    "plain-callout": {
-      "sub_directory": "callouts",
-      "description": "Style callouts with an accented title background. Suitable for use in research or academic related notes"
-    },
-    "vertical-callout": {
-      "sub_directory": "callouts",
-      "description": "Displays the callout title in a vertical manner."
-    },
-    "tilt": {
-      "sub_directory": "callouts",
-      "description": "Tilt the callout title, content, or both."
-    },
-    "font-size-callout": {
-      "sub_directory": "callouts",
-      "description": "Set the font size based on UI font size for callout title, content or both."
-    },
-    "opacity-callout": {
-      "sub_directory": "callouts",
-      "description": "Set the opacity of callout title, content or both in increments of 0.05."
-    },
-    "improved-slides": {
-      "sub_directory": "plugins",
-      "description": "Improves the appearnce of Core Slides plugin with better defaults."
-    },
-    "mobile-fixes": {
-      "sub_directory": "tabs",
-      "description": "Revert 1.11 sidebar navigation UI to pre 1.11 style."
-    },
-    "file-exts": {
-      "sub_directory": "files",
-      "description": "Add file extensions to the file explorer."
+      "description": "Makes the callout background transparent.",
+      "sub_directory": "callouts"
     },
     "canvas-oklch-fix": {
-      "sub_directory": "plugins",
-      "description": "Fixes hardcoded rgb declarations in app.css for Canvas."
+      "description": "Fixes hardcoded rgb declarations in app.css for Canvas.",
+      "sub_directory": "plugins"
+    },
+    "centre-text": {
+      "description": "Centre the callout title text, the callout content text or both.",
+      "sub_directory": "callouts"
+    },
+    "color": {
+      "description": "Specify the target colour for callout title, content or both.",
+      "sub_directory": "callouts"
+    },
+    "cursor-type": {
+      "description": "Configures default cursor type when it is not specified by the app.",
+      "sub_directory": "cursor"
+    },
+    "dotted-background": {
+      "description": "Sets a dotted background in your callouts or as a cssclass.",
+      "sub_directory": "callouts"
+    },
+    "extended-color": {
+      "description": "CSS variable definitions for the extended color palette. Used in extended color callouts snippet.",
+      "sub_directory": "colors"
+    },
+    "extended-color-palette": {
+      "description": "Set the extended colour of choice to callout title, content or both.",
+      "sub_directory": "callouts"
+    },
+    "file-exts": {
+      "description": "Add file extensions to the file explorer.",
+      "sub_directory": "files"
+    },
+    "filters": {
+      "description": "Sets the global contrast, brightness and saturation throughout Obsidian.",
+      "sub_directory": "accessibility"
+    },
+    "flashcard": {
+      "description": "Sets the callout to flashcard style. Hover to see callout content.",
+      "sub_directory": "callouts"
+    },
+    "font-size-callout": {
+      "description": "Set the font size based on UI font size for callout title, content or both.",
+      "sub_directory": "callouts"
+    },
+    "font-style": {
+      "description": "Set the font style of the callout title, content or both.",
+      "sub_directory": "callouts"
+    },
+    "font-weight": {
+      "description": "Sets the specified font weight as the default for callout title, content or both.",
+      "sub_directory": "callouts"
+    },
+    "grid-background": {
+      "description": "Sets a grid background in your callouts or as a cssclass.",
+      "sub_directory": "callouts"
+    },
+    "heading-title": {
+      "description": "Sets the callout title to inherit the target heading's styles in the theme.",
+      "sub_directory": "callouts"
+    },
+    "improved-slides": {
+      "description": "Improves the appearnce of Core Slides plugin with better defaults.",
+      "sub_directory": "plugins"
+    },
+    "lists": {
+      "description": "Set the default ordered and unordered list marker styling in callouts.",
+      "sub_directory": "callouts"
+    },
+    "lucide-icons": {
+      "description": "Sets the callout icon to a specified lucide icon value.",
+      "sub_directory": "callouts"
+    },
+    "mobile-fixes": {
+      "description": "Revert 1.11 sidebar navigation UI to pre 1.11 style.\n\nDo remember to search and replace to remove the `.flexcyon-revert-nav-item-alignment` selector when using as a standalone snippet.",
+      "sub_directory": "tabs"
+    },
+    "no-icon": {
+      "description": "Removes the callout icon.",
+      "sub_directory": "callouts"
+    },
+    "no-title": {
+      "description": "Removes the callout title.",
+      "sub_directory": "callouts"
+    },
+    "number-tabs": {
+      "description": "Numbers tabs within the same tab group. Works with Stacked Tabs as well.",
+      "sub_directory": "tabs"
+    },
+    "opacity-callout": {
+      "description": "Set the opacity of callout title, content or both in increments of 0.05.",
+      "sub_directory": "callouts"
+    },
+    "placeholder-ascii": {
+      "description": "Example ASCII art in new tabs. ASCII art generated via FIGlet (Standard Font). This output is released under the same license as this project.\n\nCredits: https://www.figlet.org",
+      "sub_directory": "new-tab"
+    },
+    "plain-callout": {
+      "description": "Style callouts with an accented title background. Suitable for use in research or academic related notes",
+      "sub_directory": "callouts"
+    },
+    "rhombus-background": {
+      "description": "Sets a rhombus background in your callouts or as a cssclass.",
+      "sub_directory": "callouts"
+    },
+    "set-font": {
+      "description": "Set the target font in callout title, content or both.",
+      "sub_directory": "callouts"
+    },
+    "smooth-cursor": {
+      "description": "Configures smooth cursor in built in vim mode.",
+      "sub_directory": "cursor"
+    },
+    "tategaki": {
+      "description": "Applies Vertical Right-to-Left (RTL) to your callout content.",
+      "sub_directory": "callouts"
+    },
+    "text-decoration": {
+      "description": "Sets the text decoration of callout title, content or both.",
+      "sub_directory": "callouts"
+    },
+    "text-direction": {
+      "description": "Centre the callout title text, the callout content text or both.",
+      "sub_directory": "callouts"
+    },
+    "text-transform": {
+      "description": "Set text transform options within callout title, content or both.",
+      "sub_directory": "callouts"
+    },
+    "tilt": {
+      "description": "Tilt the callout title, content, or both.",
+      "sub_directory": "callouts"
+    },
+    "tui-callout": {
+      "description": "Styles callouts to resemble TUI interfaces.",
+      "sub_directory": "callouts"
+    },
+    "typewriter-mode": {
+      "description": "Dims all by the active line in the editor.",
+      "sub_directory": "editor"
+    },
+    "vertical-callout": {
+      "description": "Displays the callout title in a vertical manner.",
+      "sub_directory": "callouts"
+    },
+    "vertical-ltr": {
+      "description": "Applies Vertical Left-to-Right (LTR) to your callout content.",
+      "sub_directory": "callouts"
     },
     "wrap-long-filenames": {
-      "sub_directory": "editor",
-      "description": "Wraps long filenames in the file explorer."
+      "description": "Wraps long filenames in the file explorer.",
+      "sub_directory": "editor"
+    },
+    "writing-mode": {
+      "description": "Sets writing mode which adds text indentation in callouts.",
+      "sub_directory": "callouts"
     }
   }
 }
